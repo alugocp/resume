@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+	<!--Biography-->
+	<section name="Biography">
+		<entry>
+			<title>Who I am</title>
+			<full>I'm a 19-year-old who wants to make a living off of programming and travel the world in the process. I've developed applications in multiple languages for various different platforms including Android, desktop and web.</full>
+		</entry>
+		<entry>
+			<title>Languages Spoken</title>
+			<full>At the moment I only speak 2 languages - I am a native English speaker and I largely taught myself conversational Spanish. I know a few phrases and words in Mandarin Chinese, though I am still learning the language. I intend to learn many other languages so I can better communicate around the world.</full>
+		</entry>
+		<entry>
+			<title>Hobbies</title>
+			<full>I love exploring. I always enjoy myself whether I'm hiking, biking, or getting lost in DC. I've traveled as far as Canada, Puerto Rico and Nicaragua. It's my dream to one day leave the western hemisphere and explore Afro-Eurasia and the pacific islands (and maybe even Antarctica) for a while. The rest of my hobbies can be found in the extracurriculars section.</full>
+		</entry>
+		<entry>
+			<title>More About This Site</title>
+			<full>I got the idea to build this site in my junior year of high school. I needed a project to do, and around then I had been giving out resumes to multiple jobs and colleges. The concept of this site began as a database of sorts that I could pull from to make my resumes more easily. As I got more comfortable with being a professional programmer, I began just using this site as my resume. Since then it's evolved some of the aspects of an auto-biography or even a blog. It's my hope that the site continues to develop alongside my career.</full>
+		</entry>
+	</section>
+
+	<!--Academics-->
+	<section name="Academics">
+		<entry>
+			<title>College</title>
+			<full>I'm a sophomore at the University of Maryland in College Park, Maryland. I'm pursuing a bachelor's degree in computer science with hopes of getting my master's and maybe eventually a PhD.</full>
+		</entry>
+		<entry>
+			<title>High School</title>
+			<full>I received my diploma in 2017 from Eleanor Roosevelt High School in Greenbelt, Maryland.</full>
+		</entry>
+		<entry>
+			<title>GPA</title>
+			<full>I had a cumulative GPA over 4.0 upon graduating high school.</full>
+		</entry>
+		<entry>
+			<title>AP Classes/Exams</title>
+			<full><p>Below are the exam scores recieved from every AP class I took in high school, with the exception of AP Literature (I didn't take the exam for that class).</p>
+				<b>2016 (Junior Year):</b>
+				<ul>
+					<li>Chemistry: 3</li>
+					<li>World History: 5</li>
+					<li>Computer Science: 5</li>
+				</ul>
+				<b>2017 (Senior Year):</b>
+				<ul>
+					<li>Physics C (Mechanics): 5</li>
+					<li>Physics C (E and M): 5</li>
+					<li>Human Geography: 4</li>
+					<li>Calculus BC: 5</li>
+				</ul>
+			</full>
+		</entry>
+		<entry>
+			<title>UMD Internship</title>
+			<full>I applied to the internship program at my school during my senior year. I was accepted based on my grades and my teachers' opinions of me, among other things. Information on the internship itself can be found in the Work Experience section.</full>
+		</entry>
+		<entry>
+			<title>SAT/PSAT Scores</title>
+			<summary>I have not taken the new SAT. Here are my scores for the old version of the test: 740 (math), 710 (reading), 570 (writing). My SAT test date was January 23, 2016.</summary>
+			<full>PSAT (before 2015): 67 (math), 65 (reading), 52 (writing)<br></br>PSAT (after 2015): 720 (math), 690 (reading/writing)</full>
+		</entry>
+	</section>
+
+	<!--Awards-->
+	<section name="Awards">
+		<entry>
+			<title>Congressional App Challenge (2016)</title>
+			<full>I'm proud to say I won first place in the Congressional App Challenge (for district 5 of Maryland) for a second time. I had entered my Cancer App into the competition.</full>
+		</entry>
+		<entry>
+			<title>National Hispanic Recognition Program</title>
+			<full>During the fall of 2016, I received this award in the mail for being among the most promising Latinos in the country, which really just means I had high PSAT scores and good grades.</full>
+		</entry>
+		<entry>
+			<title>Congressional App Challenge (2015)</title>
+			<summary>I won first place in the 2015 Congressional App Challenge for district 5 of Maryland.</summary>
+			<full>Representative Steny Hoyer (then the whip of congress) presented me with the award at my high school. I had programmed an Android platforming game for the contest. I called it Little Elf, and details on the project can be found in the Past Projects section. More info about the Congressional App Challenge can be found <a href="http://www.congressionalappchallenge.us/">here</a>.</full>
+			<image src="congressionalapp.jpg" height="300"></image>
+		</entry>
+		<entry>
+			<title>Exceptional Service Award</title>
+			<summary>I was presented with this award for exceptional service to Computer Club at my high school.</summary>
+			<full>I had served my first term as co-president of the club during the 2015-2016 school year (my junior year). At the end of the year, I was presented with this Outstanding Junior award. Throughout the year I had taught HTML and Javascript to the club members as well as create a website for the club. I had also assisted my co-president of the club in organizing and carrying out our bi-annual event Epic Game Night.</full>
+		</entry>
+	</section>
+
+	<!--Publications-->
+	<section name="Publications">
+		<entry>
+			<title>Putative Functional Genes in Idiopathic Dilated Cardiomyopathy</title>
+			<info label="Journal">Nucleic Acids Research</info>
+			<full>During my senior year in high school I was able to help out a local grad student with his research project. My friend Nishanth Nair was working on a model that could better predict which genes play a role in heart disease. His method was called Hridaya and he tasked me with creating a website one could use to search through his findings. I agreed and ended up as a co-author when he published his paper. You can see more information on my contribution under Heart Disease Webapp in the Past Projects section.</full>
+		</entry>
+	</section>
+
+	<!--Current Projects-->
+	<section name="Current Projects">
+		<!-- Golden Logo -->
+		<!-- Toolbox -->
+		<entry>
+			<title>Project: Cyan</title>
+			<info label="Developed">Summer 2018</info>
+			<info label="Languages">JavaScript, Python, Node, SQL</info>
+			<offset>New!</offset>
+			<full>A research application I'm developing using the experience I gained while doing research. Perhaps the most ambitious project I've done thus far.</full>
+		</entry>
+		<entry>
+			<title>WebStatic</title>
+			<info label="Developed">Summer 2018</info>
+			<info label="Languages">Node</info>
+			<info label="Version">1.0.0</info>
+			<offset>New!</offset>
+			<summary><a href="https://alugocp.github.io/ws-page">WebStatic</a> is a front-end JavaScript framework for developing static web sites. It allows you to use components and URL routes without any config files, extra syntax or meta data.</summary>
+			<full>I created this project to help me build my Project: Cyan web application, which is still under development. The framework was built in Node.js and can be downloaded from the npm tool. This project was my first foray into publishing npm packages and my return to using GitHub like a pro.</full>
+		</entry>
+		<entry>
+			<title>Regulatory Enhancer Analysis Package</title>
+			<info label="Developed">Summer 2017 thru Summer 2018</info>
+			<info label="Languages">C++, Python, R, Bash</info>
+			<summary>I worked with the University of Maryland to develop a C++ program designed to search through DNA. The program can detect areas between two DNA strands that perform a similar function. We use this program to detect conserved enhancer genes across species.</summary>
+		</entry>
+	</section>
+
+	<!--Past Projects-->
+	<section name="Past Projects">
+		<entry>
+			<title>About This Section: Continual Development</title>
+			<full>I continue to tweak many of these projects from time to time. Projects don't make it to this section until after I've completed their launch patch, so some still receive updates after being moved here.</full>
+		</entry>
+		<entry>
+			<title>Web Designer Ad</title>
+			<info label="Developed">November 2017</info>
+			<info label="Languages">JavaScript</info>
+			<full>I made a site to advertise myself as a web designer. I wanted to create a new, visually unique website for myself. You can check out the site <a href="https://alugocp.github.io/webdesign">here</a>.</full>
+		</entry>
+		<entry>
+			<title>Filtrix</title>
+			<info label="Developed">July 2017</info>
+			<info label="Languages">JavaScript</info>
+			<info label="Version">0.2.1</info>
+			<summary>Fitrix is a website that allows users to create and apply custom filters to their images. I built the site because I was bored, and I wanted to try more advanced CSS tricks. I ended up scrapping a few planned features and labeled this as a past project because it's just not as important as my other projects. It was mainly just a way to learn custom, in-depth CSS styling. You can view the site <a href="http://alexlugo.net/filtrix">here</a>.</summary>
+			<image src="filtrix.png" height="250"></image>
+		</entry>
+		<entry>
+			<title>Biblios</title>
+			<info label="Developed">May 2017</info>
+			<info label="Languages">Bash</info>
+			<full>Biblios is a command line tool I built to be a programmer's manual. It prints CDN's of Bootstrap and jQuery, for instance, and contains helpful notes I've gathered over my 8 years of programming. I got bored one day and I wanted to build a comand line tool, so the idea for Biblios just popped into my head.</full>
+		</entry>
+		<entry>
+			<title>Pro-Choice Aid Webapp</title>
+			<info label="Developed">Late January thru March 2017</info>
+			<info label="Languages">JavaScript</info>
+			<info label="Version">1.0</info>
+			<full>I started this project because the US government had recently reinstated the gag rule, which prohibits federally-funded doctors from giving women information about abortion. These doctors can't tell their patients where they can get abortions or abortion-related aid from. In an effort to even the odds, I made that information available online in one single place. I designed this project to help get women in touch with various aid services, no matter what they decided to do with their pregnancy. This project was also meant to educate people on everything abortion-related. The project didn't have as much of an impact as I would've liked, but now that it's online you never know who it may help. You can check out the app <a href="https://alugocp.github.io/prochoiceaid">here</a>.</full>
+			<image src="prochoiceaid.png" height="250"></image>
+		</entry>
+		<entry>
+			<title>CivSim 3.0: Alex Lugo's Civilization</title>
+			<info label="Developed">January thru March 2017</info>
+			<info label="Languages">Java, Ruby</info>
+			<summary>I had thought I was done with CivSim projects, but then I discovered Sid Meier's Civilization VI videos on Youtube. The inspiration bug bit me and I just couldn't help but make another CivSim program. This version is everything I dreamed about when I built the first two. It revisits concepts found in my previous CivSim projects while introducing some entirely new ones (such as culture and language).</summary>
+			<full>The program uses a neural network AI and allows you to take a closer look at cities like version 1 did, but it also brings back the hexagonal city shape and city interactions of version 2. Version 3 also has some new features, such as much larger continents and a cultural landscape map. Civs in this version can fight, expand, merge, rebel, colonize distant coasts, affect local culture/language, harvest nearby resources and learn new skills. Version 3 also comes in two different modes: simulation and player mode. Simulation mode lets you sit back and watch history happen before your very eyes. Player mode actually puts you in control of one of the nations. Every action you make is logged on decision files. I built a script in Ruby that can process those decision files to create an AI brain for use in the game. It's my hope to continue experimenting with imitative AI's such as this one. The simulation pictured to the right used an AI based on my own brain to control each civilization.</full>
+			<image src="civsim3.png" height="250"></image>
+		</entry>
+		<entry>
+			<title>Lodr.js</title>
+			<info label="Developed">February 2017</info>
+			<info label="Languages">JavaScript</info>
+			<info label="Version">2.0</info>
+			<download>lodr.js</download>
+			<summary>I've coded a simple web API that allows developers to add cool boot screens to their web apps. It's probably the simplest project I've ever worked on, but I was so happy with its results I implemented it into this site.</summary>
+			<full>I've always had a fascination with cool boot screen animations or logos, so I decided to make it easier for developers to add them to their projects. Lodr.js lets you create boot screens and control when they're dispelled. It's my hope that people will start using this lightweight API to add cool boot screens to their web projects.</full>
+			<icon src="lodr.png"></icon>
+		</entry>
+		<entry>
+			<title>Heart Disease Webapp</title>
+			<info label="Developed">February 2017</info>
+			<info label="Languages">R, JavaScript</info>
+			<summary>I'm developing a webapp that provides a GUI and search engine for a set of genealogical data related to heart disease. The app is being built for multiple University of Maryland students and professors who have been conducting research on heart disease. I made a server-side script in R that can pull data from a spreadsheet they gave me and display it for the user. You can check out the webapp <a href="https://nishanthnair.shinyapps.io/heartdisease">here</a>.</summary>
+		</entry>
+		<entry>
+			<title>Cancer Survival App</title>
+			<info label="Developed">October thru December 2016</info>
+			<info label="Languages">R, JavaScript</info>
+			<info label="Version">1.3.1</info>
+			<summary>I began working on this project as part of my internship at University of Maryland (UMD) in my senior year of high school. It is a web app written mainly in R that allows users to see how genetic interactions affect cancer patients' chances of survival.</summary>
+			<full>I wrote a server-side script in R that can read gene expression and clinical data from around 2000 different cancer patients. I also wrote a client-side webapp using Shiny R and Javascript that requests and visualizes data gathered from the server. The result is an interactive web-based application that allows users to see how certain genes (and how strongly they're expressed) affect cancer survival. I used R for this program because it makes statistical analysis and visualization easy (it has a built-in Kaplan-Meier function for survival analysis), and because the Shiny package makes it easy to develop dynamic server-based webapps in R. You can check the project out <a href="https://amagen.shinyapps.io/cancergi">here</a>.</full>
+			<image src="cancerapp.png" height="250"></image>
+		</entry>
+		<entry>
+			<title>CivSim 2.0</title>
+			<info label="Developed">August/September 2016</info>
+			<info label="Languages">Java (prototype), Python</info>
+			<download>civsim2.py</download>
+			<summary>A better version of the Civilization Simulator I had built a few months before. Whereas version 1 was based on neural networks, this version utilizes sensory networks and a prioritization algorithm. This version also focuses more on interactions between nations instead of competition for (and depletion of) resources.</summary>
+			<full>It took me about one week to program the prototype in Java. It took me another week to learn Python and rewrite the final version. I felt that a dynamically-typed language would better optimize the project. I used a mainly functional paradigm when creating this project, as opposed to version 1's purely object-oriented approach. Python's Tkinter module caused some optimization issues, but I've minimized them. This project is everything I wished version 1 was. When you boot up the program it generates a random continent complete with a handful of cities. These cities send requests to their emperors based on their surroundings (like a sensory network) and the emperors decide which requests to appease and which to ignore. Throughout the course of each simulation, cities will fight other cities, establish new cities for their emperor, and sometimes secede from their empire to start a dissident nation. Bordering nations of similar size merge together, to ensure that new empires form throughout the artificial timeline. A histogram that graphs the size of each nation over time is generated as the simulation runs, so one can see the complete history of any given simulation after it has terminated. My last update to this project was to allow nations to cross water and colonize distant coasts/islands, for a slightly more accurate recreation of real history.</full>
+			<image src="civsim2.jpeg" height="300"></image>
+		</entry>
+		<entry>
+			<title>Civilization Simulator (CivSim)</title>
+			<info label="Developed">Summer 2016</info>
+			<info label="Languages">Java</info>
+			<summary>During the summer of 2016, I developed a simulation for competing nations and empires run by neural network AI's.</summary>
+			<full>The concept for the project grew of my interest and curiosity with the rise and fall of civilizations. I tend to be a bit of a philomath when it comes to how different societies mingle, battle, grow powerful, and crumble throughout time. After passing AP World History I needed a new source to indulge this curiosity of mine, so I created the CivSim program. The program uses a continent generator based on one I had built in Javascript a few months before. This simulation, however, was coded wholly in Java (making extensive use of the java.awt library). The program was my first attempt at programming an AI. I used a simple neural-network structure to replicate thought and self-learning. Each AI controls a single nation and has 11 inputs (senses), 8 outputs (actions), and up to 88 synapses. I implemented some simple code to judge the outcome of an AI's actions. If the outcome was destructive to the AI, the AI would try something new the next time. This led to a self-improving neural network that could compete with its rivals for resources. I continue to tweak the program to ensure each simulation will see multiple dominating empires rise and fall throughout the runtime, rather than simply one empire dominating a single sim. The populations of each nation are recorded in a histogram, to give me analyzable data concerning which nations rise, dominate, and fall at what time in the simulation. The program will be complete when one can clearly see political dominance passing fluidly from society to society before the continent completely runs out of resources and they all die out.</full>
+			<image src="civsim.jpg" height="300"></image>
+		</entry>
+		<entry>
+			<title>Alex Lugo's Resume</title>
+			<info label="Developed">Spring 2016</info>
+			<info label="Languages">JavaScript</info>
+			<full>Yes, I'm mentioning this very site within itself. Pretty meta, huh? After attending House of Code (A demo day and reception for the Congressional App Challenge) in 2016, I realized I would need a resume to hand out to people. I decided to make my resume a website. This design saved paper and allowed me to update my resume and to learn Bootstrap. I scaffolded this site using HTML and Bootstrap, styled it using CSS and scripted it with JavaScript and jQuery. I add content to the site by updating an XML file.</full>
+		</entry>
+		<entry>
+			<title>Continent Generator</title>
+			<info label="Developed">late February 2016</info>
+			<info label="Languages">JavaScript</info>
+			<summary>A simple landmass generation program written in Javascript.</summary>
+			<full>Procedural generation and geography have always fascinated me. Why not merge the two in a project? It took me three tries, but eventually I got the perfect continent generator up and running. Whenever you refreshed the page, a new continent was generated and displayed in your browser. The continents had all the features I found interesting - peninsulas, off-shore islands, gulfs, lakes, and inland seas. I later adapted this program to create my CivSim project.</full>
+		</entry>
+		<entry>
+			<title>Little Elf</title>
+			<info label="Languages">Java</info>
+			<summary>Little Elf in its latest incarnation is an unfinished Android platformer.</summary>
+			<full>I had originally worked on this game in an attempt to create a new platforming experience for me to enjoy. None of the platformers on Google Play interested me, so I decided to make my own. The graphics were hand-drawn and then digitally colored and animated by me. The game still lacks multiple graphical assets, including a sprite for the player character. I had lost interest in the project for a few months but then decided to resurrect it for the 2015 Congressional App Challenge, where it won me first place for district 5 of Maryland. The game is completely hard-coded in Java using Eclipse's ADT plugin, before Google released Android Studio. I am not very proud of the code that went in to building this game, since most of it was developed before I had my current understanding of Android development. To list one downfall of the overall project, the game will only work on my phone's specific screen size and screen density. I have received much feedback to the effect that I should publish the game on Google Play. Should I ever do that, however, I would first restart the entire project's code (and perhaps its graphical assets as well) from scratch.</full>
+		</entry>
+	</section>
+
+	<!--The Backburner-->
+	<section name="The Backburner">
+		<entry>
+			<title>Welcome to the Backburner</title>
+			<full>Welcome! This is the dark pit where I put all my ideas that I've stopped working on, either temporarily or permanently. Can't tell which is which? Well don't feel bad, even I can't!</full>
+		</entry>
+		<entry>
+			<title>Xochitl</title>
+			<info label="Developed">Fall 2017</info>
+			<info label="Languages">Python (Prototype), Node.js, ANTLR4</info>
+			<info label="Prototyped">March thru May 2017</info>
+			<icon src="xochitl.png"></icon>
+			<summary>Xochitl is a Nahuatl word that comes from the name Xochipilli, the Aztec god of art. Xochitl is the first programming language I've ever built. It's a scripting language designed to make simple imagery such as logos. The language uses a procedural/imperative paradigm and is based on Ruby, C and Lisp. I plan on using Xochitl to give all my projects a unique aesthetic identity.</summary>
+			<full>Xochitl went through various different iterations as I learned more about language design. At first I had the interpreter read the source code without any bytecode conversion, but obviously that made the language too slow. Xochitl's next iteration saw the introduction of a simple virtual machine prototype. My next design will compile Xochitl code into JavaScript and run it on the Node platform. I'd like to eventually build a fully-functional VM to run native Xochitl on, but I just don't have the time to develop it right now.</full>
+		</entry>
+		<!--<entry>
+			<title>"Apps for Africa" Software Suite</title>
+			<info label="Developed">Began March 3, 2017</info>
+			<info label="Languages">JavaScript, Python, PHP, Java, possibly Swift or Xojo</info>
+			<icon src="africa.png"></icon>
+			<summary>I'm proud to say that I get to develop a few apps (on both mobile and web platforms) with the help of the <a href="https://www.wilsoncenter.org/">Woodrow Wilson Center's</a> Africa program. I'll post more information on these apps closer to their unveiling. I'm currently making good progress on all 3 of the planned apps.</summary>
+		</entry>-->
+		<entry>
+			<title>Cartoon Game</title>
+			<info label="Languages">Java</info>
+			<summary>Unleash devastating power-ups to battle through hordes of cute cartoonish enemies on your way to save a kidnapped prince.</summary>
+			<full>An Android game that I used to love working on, but then school started up again and I lost the time to work on it. I really would like to finish this some day, though it would be nice to team up with an artist so I could focus just on coding.</full>
+			<image src="cartoon.jpg" height="250"></image>
+		</entry>
+	</section>
+
+	<!--Programming Skills-->
+	<section name="Programming Skills">
+		<entry>
+			<title>Web Development</title>
+			<summary>I am comfortable with calling myself a web developer, given my previous work experience and current knowledge on the subject. I can use HTML, CSS and Javascript - what I like to call the holy trinity of web development.</summary>
+			<full>I am completely fluent in the Javascript language, and have worked on both front-end and back-end scripts. I have experience with jQuery, Bootstrap and PHP. I've even written my own front-end JS framework called WebStatic.</full>
+		</entry>
+		<entry>
+			<title>Android and Java</title>
+			<summary>I have made many games and other programs for my Android phone, though none of them have been published to Google Play as of yet.</summary>
+			<full>Web and Android are my two best platforms to develop on, since they are the two I've had the most access to. I have over two years of experience with Android development, mainly game creation. I excel mainly in the functionality and 2D graphics portion of Android game development. As for desktop Java apps, I have less experience with UI than I do in Android. However, Java is my dominant language in terms of functional programming.</full>
+		</entry>
+		<entry>
+			<title>C/C++</title>
+			<full>I taught myself basic C++ between high school and college and then took a class on C my freshman year. I've mastered most low-level concepts and am currently finishing up a year-long C++ project. C is one of my favorite languages to code in simply because of how fast it runs and how much control I have when optimizing my code.</full>
+		</entry>
+		<entry>
+			<title>Python</title>
+			<full>I had originally learned this language in a week when I was working on my CivSim 2.0 project. I've since come bask to master it, and it is now one of my favorite languages to code in. I especially love to prototype and script in Python. I prefer R for data science applications, but I still occasionally use Python for it from time to time.</full>
+		</entry>
+		<entry>
+			<title>R</title>
+			<full>I've got both an understanding and an appreciation for the R programming language. While the design (which is geared more towards non-coders) occasionally throws me off, it's so perfectly fit towards its purpose of statistical data analysis and visualization. I love the developer community built around this language and I enjoy the option of writing scripts or using the interactive terminal.</full>
+		</entry>
+		<entry>
+			<title>Ruby</title>
+			<summary>I think Ruby is one of the prettiest languages I know, even though I don't use it as often as I'd like. My recent gateway into Ruby was its Rails framework, since I had wanted to learn professional web platforms and frameworks.</summary>
+			<full>Ruby was actually the first language I had ever learned, although all I really knew was <code>puts</code> and <code>gets.chomp</code> back in fourth grade.</full>
+		</entry>
+		<entry>
+			<title>Linux</title>
+			<full>I develop on a Ubuntu laptop, so I know how to use Linux. I have some experience with networking using ssh requests, and I know all the basics of the command line. I also script my own developer tools in Bash.</full>
+		</entry>
+		<entry>
+			<title>Text Processing with ANTLR4</title>
+			<full>I can use a software called ANTLR4 to process patterns in text. I used this while working on my Xochitl interpreter. ANTLR4 is commonly used in AI, compilers, and other projects that require grammar-based language processing.</full>
+		</entry>
+		<entry>
+			<title>SQL</title>
+			<full>I'm currently working on a database-driven application using Python's MySQL module. Using this module requires me to write SQL exec calls. I'm not yet an expert on databases but I'll be a whole lot better by the next time I update this site.</full>
+		</entry>
+		<entry>
+			<title>Wish List</title>
+			<full>There are still a lot of things I want to learn one day, so I decided to list a few here.
+				<ul>
+					<li>Languages: Scala, Groovy, OCaml, Clojure, NativeScript and Lisp</li>
+					<li>APIs: Django, Angular, Hadoop</li>
+				</ul>
+			</full>
+		</entry>
+	</section>
+
+	<!--Work Experience-->
+	<section name="Work Experience">
+		<entry>
+			<title>Web Consultant</title>
+			<info label="During">October 2017</info>
+			<full>I build a website for Chris Cobbs, a man who formerly worked under the Obama administration. I was hired to redesign his website at <a href="http://chriscobbs.com">chriscobbs.com</a></full>
+		</entry>
+		<entry>
+			<title>Solomon Signature Solutions</title>
+			<info label="During">Fall 2017</info>
+			<summary>I am currently working as an contracted software engineer for a local company.</summary>
+		</entry>
+		<entry>
+			<title>UMD Internship</title>
+			<info label="During">Summer 2017</info>
+			<full>During the summer of 2017 I held a 9-to-5 job for the first time. I developed a C++ package designed to efficiently detect similarities in regulatory enhancers in a given genome. More information will be posted on this internship as the summer progresses.</full>
+		</entry>
+		<entry>
+			<title>UMD Internship</title>
+			<info label="During">2016 - 2017 school year</info>
+			<summary>During the 2016-2017 school year (my senior year), I had an internship with the University of Maryland's (UMD) Institute for Advanced Computer Science. I worked in the Biomolecular Sciences building under the mentorship of <a href="http://www.cbcb.umd.edu/~sridhar/">Professor Sridhar Hannenhalli</a>.</summary>
+			<full>4 days a week I would take the city bus to UMD and then go to school afterwards. At UMD I worked on my Cancer Survival App (more information on that can be found in the Past Projects section). I worked with both professors and interns to design the app and learn more about UMIACS's networking infrastructure. I did all the coding, but they told me what the app should do and provided me with the means to develop it. During the course of this internship I worked extensively with Shiny R and Unix networking commands. I was given a few webspaces on UMD's server clusters. During testing I was able to upload my code to their ibis cluster so that I could use their cancer survival data.</full>
+		</entry>
+		<entry>
+			<title>Appfluent, Inc.</title>
+			<summary>I had worked on minor web development for about 4 weeks for this company.</summary>
+			<full>During January of 2015, my father had notified me that the company he worked for, Appfluent, was looking for an independent contractor to do some minor web development work for them. Naturally I told him I'd love to do the work. Appfluent had multiple license text files they wanted to publish onto their web app. My job was to convert the license files to html (adding tags and such). After that was done, I created a stylesheet to apply to the files. I was also tasked with coding a sort of hub site where one could access links to all the licenses. I then added a link to that page to the main web app. After I had finished my work, Appfluent was bought out by Attunity. Attunity didn't have any reason to keep a 16-year old contractor on their payroll, so they opted not to renew my contract.</full>
+		</entry>
+	</section>
+
+	<!--Extracurriculars-->
+	<section name="Extracurriculars">
+		<entry>
+			<title>Rugby</title>
+			<summary>It was during sophomore year in high school that I wanted to join an afterschool activity. One of my friends suggested Rugby and I fell in love after the first practice.</summary>
+			<full>Rugby is the missing link between American football and Soccer. It's a rough contact sport that is commonly played without padding - save for a mouthguard.</full>
+		</entry>
+		<entry>
+			<title>Orchestra</title>
+			<summary>I've played Viola in school orchestras every year since the fourth grade. Due to scheduling, however, I do not have time to take orchestra in my senior year of high school.</summary>
+			<full>Alongside school orchestras, I've also participated in the College Park Youth Orchestra, Prince George's County Honor's Orchestra, and UMD's Summer Youth Music Camp. I have performed in the UMD Clarice Smith Center on more than 10 occasions.</full>
+		</entry>
+		<entry>
+			<title>Computer Club</title>
+			<summary>I served as vice president of my school's computer club for two years in a row. Computer club is an after-schol activity held every Wednesday where students can learn about programming and other aspects of computer science and engineering.</summary>
+			<full>A friend and I brought the club back from the brink of permanent cancellation. I created a <a href="http://bit.ly/erhscompclub">website</a> for the club so we could teach kids more efficiently, and I gave lectures about programming and computer science every Wednesday.</full>
+		</entry>
+	</section>
+
+	<!--Contact-->
+	<section name="Contact">
+		<entry>
+			<title>GitHub</title>
+			<full>Whether you're a potential employer, college admissions officer or just want to look at some of my code, here's my <a href="https://github.com/alugocp">GitHub</a>. It doesn't have all my projects on it, but I figured I'd still provide a link anyway.</full>
+		</entry>
+		<entry>
+			<title>Facebook</title>
+			<full>I have prepared a link <a href="https://www.facebook.com/alex.lugo.5621">here</a>. It's best to contact me on Facebook or Twitter instead of by email.</full>
+		</entry>
+		<entry>
+			<title>Twitter</title>
+			<full>Here's my personal <a href="https://twitter.com/alugocp">Twitter account</a>.</full>
+		</entry>
+		<entry>
+			<title>LinkedIn</title>
+			<full>Essentially my professional <a href="https://www.linkedin.com/in/alex-lugo-0938707b">social media account</a>.</full>
+		</entry>
+		<entry>
+			<title>Email</title>
+			<full><code>alugocp@aim.com</code>: I give this email out to just anyone. If you're actually looking for any sort of business relations, I'll send you my more important email over this one. I'd still recommend using social media to contact me.</full>
+		</entry>
+	</section>
+</resume>
