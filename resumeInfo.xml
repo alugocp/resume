@@ -140,7 +140,7 @@
 			<info label="Developed">July 2017</info>
 			<info label="Languages">JavaScript</info>
 			<info label="Version">0.2.1</info>
-			<summary>Fitrix is a website that allows users to create and apply custom filters to their images. I built the site because I was bored, and I wanted to try more advanced CSS tricks. I ended up scrapping a few planned features and labeled this as a past project because it's just not as important as my other projects. It was mainly just a way to learn custom, in-depth CSS styling. You can view the site <a href="http://alexlugo.net/filtrix">here</a>.</summary>
+			<summary>Fitrix is a website that allows users to create and apply custom filters to their images. I built the site because I was bored, and I wanted to try more advanced CSS tricks. I ended up scrapping a few planned features and labeled this as a past project because it's just not as important as my other projects. It was mainly just a way to learn custom, in-depth CSS styling.</summary>
 			<image src="filtrix.png" height="250"></image>
 		</entry>
 		<entry>
