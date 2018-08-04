@@ -90,7 +90,7 @@
 	<section name="Publications">
 		<entry>
 			<title>Putative Functional Genes in Idiopathic Dilated Cardiomyopathy</title>
-			<info label="Journal">Nucleic Acids Research</info>
+			<info label="Journal">Scientific Reports</info>
 			<full>During my senior year in high school I was able to help out a local grad student with his research project. My friend Nishanth Nair was working on a model that could better predict which genes play a role in heart disease. His method was called Hridaya and he tasked me with creating a website one could use to search through his findings. I agreed and ended up as a co-author when he published his paper. You can see more information on my contribution under Heart Disease Webapp in the Past Projects section.</full>
 		</entry>
 	</section>
@@ -114,6 +114,7 @@
 			<offset>New!</offset>
 			<summary><a href="https://alugocp.github.io/ws-page">WebStatic</a> is a front-end JavaScript framework for developing static web sites. It allows you to use components and URL routes without any config files, extra syntax or meta data.</summary>
 			<full>I created this project to help me build my Project: Cyan web application, which is still under development. The framework was built in Node.js and can be downloaded from the npm tool. This project was my first foray into publishing npm packages and my return to using GitHub like a pro.</full>
+			<icon src="ws-hex.png"></icon>
 		</entry>
 		<entry>
 			<title>Regulatory Enhancer Analysis Package</title>
