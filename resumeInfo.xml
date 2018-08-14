@@ -117,6 +117,13 @@
 			<icon src="ws-hex.png"></icon>
 		</entry>
 		<entry>
+			<title>Toolbox</title>
+			<info label="Developed">Summer 2018</info>
+			<info label="Languages">Python, JavaScript</info>
+			<offset>New!</offset>
+			<full>An online repository of all the developer tools I've built.</full>
+		</entry>
+		<entry>
 			<title>Regulatory Enhancer Analysis Package</title>
 			<info label="Developed">Summer 2017 thru Summer 2018</info>
 			<info label="Languages">C++, Python, R, Bash</info>
