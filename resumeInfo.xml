@@ -97,31 +97,24 @@
 
 	<!--Current Projects-->
 	<section name="Current Projects">
-		<!-- Golden Logo -->
-		<!-- Toolbox -->
 		<entry>
-			<title>Project: Cyan</title>
+			<title>EqualsEquals Website</title>
+			<info label="Developed">Fall 2018</info>
+			<info label="Platforms">WebStatic</info>
+			<offset>New!</offset>
+			<full>I have the pleasure of leading a web dev team that's rebuilding the official website of EqualsEquals hackathon.</full>
+		</entry>
+		<entry>
+			<title>Personal UMD Page</title>
+			<info label="Developed">August 2018</info>
+			<full>I made myself a basic new page to upload to my UMD webspaces. I wanted to create something visually similar to UMD's websites in anticipation of an on-campus interview with some of their web development representatives. You can check out the site <a href="https://umiacs.umd.edu/~alugocp">here</a>.</full>
+		</entry>
+		<entry>
+			<title>Cyan Pepper</title>
 			<info label="Developed">Summer 2018</info>
 			<info label="Languages">JavaScript, Python, Node, SQL</info>
-			<offset>New!</offset>
+			<info label="Platforms">WebStatic, MySQL</info>
 			<full>A research application I'm developing using the experience I gained while doing research. Perhaps the most ambitious project I've done thus far.</full>
-		</entry>
-		<entry>
-			<title>WebStatic</title>
-			<info label="Developed">Summer 2018</info>
-			<info label="Languages">Node</info>
-			<info label="Version">1.0.0</info>
-			<offset>New!</offset>
-			<summary><a href="https://alugocp.github.io/ws-page">WebStatic</a> is a front-end JavaScript framework for developing static web sites. It allows you to use components and URL routes without any config files, extra syntax or meta data.</summary>
-			<full>I created this project to help me build my Project: Cyan web application, which is still under development. The framework was built in Node.js and can be downloaded from the npm tool. This project was my first foray into publishing npm packages and my return to using GitHub like a pro.</full>
-			<icon src="ws-hex.png"></icon>
-		</entry>
-		<entry>
-			<title>Toolbox</title>
-			<info label="Developed">Summer 2018</info>
-			<info label="Languages">Python, JavaScript</info>
-			<offset>New!</offset>
-			<full>An online repository of all the developer tools I've built.</full>
 		</entry>
 		<entry>
 			<title>Regulatory Enhancer Analysis Package</title>
@@ -136,6 +129,21 @@
 		<entry>
 			<title>About This Section: Continual Development</title>
 			<full>I continue to tweak many of these projects from time to time. Projects don't make it to this section until after I've completed their launch patch, so some still receive updates after being moved here.</full>
+		</entry>
+		<entry>
+			<title>WebStatic</title>
+			<info label="Developed">Summer 2018</info>
+			<info label="Languages">Node</info>
+			<info label="Version">1.1.0</info>
+			<summary><a href="https://alugocp.github.io/ws-page">WebStatic</a> is a front-end JavaScript framework for developing static web sites. It allows you to use components and URL routes without any config files, extra syntax or meta data.</summary>
+			<full>I created this project to help me build my Project: Cyan web application, which is still under development. The framework was built in Node.js and can be downloaded from the npm tool. This project was my first foray into publishing npm packages and my return to using GitHub like a pro.</full>
+			<icon src="ws-hex.png"></icon>
+		</entry>
+		<entry>
+			<title>Toolbox</title>
+			<info label="Developed">Summer 2018</info>
+			<info label="Languages">Python, JavaScript</info>
+			<full>An online repository of all the developer tools I've built. This was my first foray into using Python Flask, since it made it easier to upload the server onto PythonAnywhere's website. It was also the first server-backed app I've ever published, so, yay me.</full>
 		</entry>
 		<entry>
 			<title>Web Designer Ad</title>
