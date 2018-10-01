@@ -1,32 +1,33 @@
 div.body{
-		padding:20px;
-		padding-left:40px;
+	padding:20px;
+	padding-left:40px;
+	font-family:sans-serif;
+	font-size:16px;
 }
 h3{
-		color:var(--secondary-color);
+	color:var(--secondary-color);
+	font-weight:bold;
 }
 h1{
-		color:var(--secondary-color);
-		font-weight:bold;
-		text-align:center;
+	font-family:sans-serif;
+	color:var(--secondary-color);
+	font-weight:bold;
+	text-align:center;
 }
 a{
-		color:var(--secondary-color);
+	color:var(--secondary-color);
 }
-/*a:hover{
-		color:maroon;
-}*/
 a.more{
-		display:block;
-		margin-top:10px;
-		transition:color 0.1s ease;
+	display:block;
+	margin-top:10px;
+	transition:color 0.1s ease;
 }
 a.more:hover{
-		text-decoration:none;
-		color:var(--lighter-secondary);
+	text-decoration:none;
+	color:var(--lighter-secondary);
 }
 a.btn{
-		display:block;
+	display:block;
 }
 .offset{
 	color:var(--secondary-color);
@@ -38,24 +39,20 @@ a.download{
 	transition:color 0.1s ease;
 }
 a.download:hover{
-		text-decoration:none;
-		color:var(--lighter-secondary);
+	text-decoration:none;
+	color:var(--lighter-secondary);
 }
 img.content{
-	width:auto;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	margin-bottom:10px;
 	border: solid black;
 	border-radius:10px;
 	border-width:5px;
 }
-img.icon{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
+#content img{
+	transform:translateX(-50%);
 	margin-bottom:10px;
+	position:relative;
+	left:50%;
+	top:50%;
 }
 span.info{
 	color:var(--secondary-color);

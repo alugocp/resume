@@ -3,16 +3,9 @@ $("#profile").attr("src",colors.profile);
 
 var site={
   tags:{
-    title:function(name){
-      return $("<h3>"+name+"</h3>");
-    },
-    extra:function(id,content){
-      return $("<div id='"+id+"' class='collapse'>"+content+"</div>");
-    },
-    info:function(tag,content){
-      var info="<span class='info'>"+tag+": </span>";
-      return $("<span>"+info+content+"</br></span>");
-    },
+    title:(name) => $("<h3>"+name+"</h3>"),
+    extra:(id,content) => $("<div id='"+id+"' class='collapse'>"+content+"</div>"),
+    info:(tag,content) => "<span><span class='info'>"+tag+": </span>"+content+"</br></span>",
     download:function(link){
       var dwnld=$("<a></a>");
       dwnld.html("Download");
@@ -36,11 +29,8 @@ var site={
       m.attr("data-target","#"+id);
       m.attr("data-toggle","collapse");
       m.click(function(){
-        if($(this).html()=="View more"){
-          $(this).html("View less");
-        }else{
-          $(this).html("View more");
-        }
+        if($(this).html()=="View more") $(this).html("View less");
+        else $(this).html("View more");
       });
       return m;
     }
@@ -52,13 +42,9 @@ var site={
     row.append(text,images);
     text.append(site.tags.title($(data.find("title")[0]).html()));
     var dwnld=data.find("download");
-    if(dwnld.length==1){
-      text.append(site.tags.download($(dwnld[0]).html()));
-    }
+    if(dwnld.length==1) text.append(site.tags.download($(dwnld[0]).html()));
     var off=data.find("offset");
-    if(off.length==1){
-      text.append(site.tags.offset($(off[0]).html()));
-    }
+    if(off.length==1) text.append(site.tags.offset($(off[0]).html()));
     var infoSet=data.find("info");
     if(infoSet.length>0){
       for(var a=0;a<infoSet.length;a++){
@@ -66,18 +52,13 @@ var site={
         text.append(site.tags.info(i.attr("label"),i.html()));
       }
     }
-    var summary=data.find("summary");
-    var full=data.find("full");
-    if(summary.length==0 && full.length==0){
-      text.append("Coming soon...");
-    }else{
-      if(summary.length==1){
-        text.append($(summary[0]).html());
-      }
+    var summary=data.find("summary"),full=data.find("full");
+    if(summary.length==0 && full.length==0) text.append("Coming soon...");
+    else{
+      if(summary.length==1) text.append($(summary[0]).html());
       if(full.length==1){
-        if(summary.length==0){
-          text.append($(full[0]).html());
-        }else{
+        if(!summary.length) text.append($(full[0]).html());
+        else{
           var id="entry"+index;
           text.append(site.tags.extra(id,$(full[0]).html()));
           text.append(site.tags.more(id));
@@ -87,14 +68,14 @@ var site={
     var img=data.find("image");
     if(img.length==1){
       var image=$("<img class='content' src='images/"+$(img[0]).attr("src")+"'></img>");
-      if($(img[0]).attr("height")!=undefined){
-        image.attr("height",$(img[0]).attr("height")+"px");
-      }
+      if($(img[0]).attr("height")) image.attr("height",$(img[0]).attr("height")+"px");
       images.append(image);
     }else{
       var icon=data.find("icon");
       if(icon.length==1){
-        images.append($("<img class='icon' src='icons/"+$(icon[0]).attr("src")+"'></img>"));
+        var e=$("<img class='icon' src='icons/"+$(icon[0]).attr("src")+"'></img>");
+        if(icon.attr("height")) e.attr("height",icon.attr("height"));
+        images.append(e);
       }
     }
     return row;
@@ -103,17 +84,14 @@ var site={
     input=input.toLowerCase();
     var a=0;
     while(a<input.length){
-      if(input.charAt(a)==" "){
-        input=input.substring(0,a)+input.substring(a+1,input.length);
-      }else{
-        a++;
-      }
+      if(input.charAt(a)==" ") input=input.substring(0,a)+input.substring(a+1,input.length);
+      else a++;
     }
     return input;
   },
   loadContent:function(section){
     $("#content").children().each(function(){
-      $(this).hide();
+        $(this).hide();
     });
     $("#heading").html("<h1>"+section+"</h1>");
     $("#"+site.toId(section)).show();
@@ -126,8 +104,7 @@ var site={
         var section=$("<span></span>");
         section.attr("id",site.toId($(this).attr("name")));
         $(this).children().each(function(){
-          section.append(site.entry($(this),index));
-          index++;
+          section.append(site.entry($(this),index++));
         });
         section.hide();
         $("#content").append(section);
@@ -143,7 +120,7 @@ var site={
         $("#list").append($("<a class='list-group-item'>"+$(this).attr("name")+"</a>"));
       });
       $("a.list-group-item").click(function(){
-        site.loadContent($(this).html());
+        site.loadContent($(this).html())
       });
     })
   },
@@ -156,15 +133,10 @@ var site={
 $("#menu").click(function(){
   $("#sidebar").toggleClass("active");
   var margin=$("#sidebar-margin");
-  if(margin.css("width")=="200px"){
-    margin.css("width","0px");
-  }else{
-    margin.css("width","200px");
-  }
+  if(margin.css("width")=="200px") margin.css("width","0px");
+  else margin.css("width","200px");
 });
-$(window).resize(function(){
-  site.setSidebarHeight();
-});
+$(window).resize(site.setSidebarHeight);
 site.setSections();
 site.setSidebarHeight();
 site.setupContent();

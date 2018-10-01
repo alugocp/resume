@@ -2,13 +2,15 @@
 :root{
 	--sidebar-width:200px;
 	--sidebar-border:5px;
-	/*--sidebar-total:calc(var(--sidebar-width) + calc(2 * var(--sidebar-border)));*/
 }
 #sidebar-margin{
+	position:relative;
+	pointer-events:none;
 	transition:width 0.3s ease;
 	width:200px;
 }
 #sidebar{
+	font-family:sans-serif;
 	background-color:#5c5c5c;
 	width:0px;
 	transition:width 0.3s ease;
@@ -30,30 +32,16 @@
 	border-style:none;
 	text-align:center;
 }
-ul.list-group > a.list-group-item{
+ul.list-group a.list-group-item{
 	background-color:#313131;
 	color:white;
 	border-bottom:solid #5c5c5c;
 	border-width:3px;
 	transition:background-color 0.1s ease,color 0.1s ease;
 }
-ul.list-group > a.list-group-item:hover{
+ul.list-group a.list-group-item:hover{
 	background-color:#878787;
 }
-/*ul.list-group > a.list-group-item{
-	background-size:calc(2 * var(--sidebar-total)) 100%;
-	background-position:calc(-1 * var(--sidebar-total)) top;
-	background-image:-moz-linear-gradient(to right,#878787 50%,#313131 50%);
-	background-image:-webkit-linear-gradient(left,#878787 50%,#313131 50%);
-	transition:background-position 0.3s ease;
-	border-bottom:solid #5c5c5c;
-	border-width:3px;
-	color:white;
-}
-ul.list-group > a.list-group-item:hover{
-	background-position:left top;
-}*/
-/* end of testing */
 li.list-group-item{
 	background-color:black;
 	font-size:20px;

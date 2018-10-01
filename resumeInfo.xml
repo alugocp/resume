@@ -98,6 +98,26 @@
 	<!--Current Projects-->
 	<section name="Current Projects">
 		<entry>
+			<title>Xochitl</title>
+			<info label="Developed">September 2018</info>
+			<info label="Languages">Python (Prototype), ANTLR4 (Prototype), Node.js</info>
+			<info label="Prototyped">Spring 2017, Fall 2017</info>
+			<icon src="xochitl.svg" height="200"></icon>
+			<offset>New!</offset>
+			<summary>
+				Xochitl is a Nahuatl word that comes from the name Xochipilli, the Aztec god of art.
+				Xochitl is officially the first programming language I've ever built. Its primary use is to create mathematically-precise SVG graphics. The icon you see to the right was actually one of the first images I designed in Xochitl.
+				As a fan of out-there languages and paradigms, I tried to make Xochitl as weird as I possibly could while still justifying all my design choices. The language is graph-based, which gives it strange properties like non-importance of the order of source code lines.
+				There are also functional, logical and object-oriented elements sprinkled throughout the language for good measure. Having finally built it, I'm extremely proud of what this language has become.
+				I plan on using Xochitl to give all my projects a unique aesthetic identity using infinitely-scaling vector graphics.
+			</summary>
+			<full>
+				Xochitl went through various different iterations as I learned more about language design. At first I had the interpreter read the source code without any bytecode conversion, but obviously that made the language too slow.
+				Xochitl's next iteration saw the introduction of a simple virtual machine prototype. The language had a procedural/imperative paradigm back then with syntax heavily inspired by Ruby, C and Lisp (but it was basically a Python ripoff).
+				A year later I would finally completely redesign the language as a Node library with accompanying IDE. The current design compiles Xochitl source code directly into an SVG-format vector graphic.
+			</full>
+		</entry>
+		<entry>
 			<title>EqualsEquals Website</title>
 			<info label="Developed">Fall 2018</info>
 			<info label="Platforms">WebStatic</info>
@@ -105,16 +125,21 @@
 			<full>I have the pleasure of leading a web dev team that's rebuilding the official website of EqualsEquals hackathon.</full>
 		</entry>
 		<entry>
-			<title>Personal UMD Page</title>
-			<info label="Developed">August 2018</info>
-			<full>I made myself a basic new page to upload to my UMD webspaces. I wanted to create something visually similar to UMD's websites in anticipation of an on-campus interview with some of their web development representatives. You can check out the site <a href="https://umiacs.umd.edu/~alugocp">here</a>.</full>
-		</entry>
-		<entry>
 			<title>Cyan Pepper</title>
 			<info label="Developed">Summer 2018</info>
 			<info label="Languages">JavaScript, Python, Node, SQL</info>
 			<info label="Platforms">WebStatic, MySQL</info>
-			<full>A research application I'm developing using the experience I gained while doing research. Perhaps the most ambitious project I've done thus far.</full>
+			<icon src="cyan-pepper.svg" height="200"></icon>
+			<summary>
+				I read an article once explaining the new Marvel NOW 2.0 comic line by Marvel comics. Marvel likes to publish new branches of stories every few years (instead of expecting readers to keep track of all their decades-long continuity).
+				I immediately thought it would be cool if research publications did this as well. Could you map paths between the innumerable papers from online articles?
+				I reasoned you could, so I decided to develop Cyan Pepper.
+			</summary>
+			<full>
+				Cyan Pepper is a research web-app that makes it easy for prospective scientists to start researching their field of interest.
+				Simply type a topic into the search bar and hit go to start your scientific journey. Cyan Pepper implements a webcrawler in Node.js that searches online articles for juicy research articles and then extracts and logs their relevant metadata into a MySQL database.
+				The client app can query the database through a minimalist Python Flask server.
+			</full>
 		</entry>
 		<entry>
 			<title>Regulatory Enhancer Analysis Package</title>
@@ -131,6 +156,11 @@
 			<full>I continue to tweak many of these projects from time to time. Projects don't make it to this section until after I've completed their launch patch, so some still receive updates after being moved here.</full>
 		</entry>
 		<entry>
+			<title>Personal UMD Page</title>
+			<info label="Developed">August 2018</info>
+			<full>I made myself a basic new page to upload to my UMD webspaces. I wanted to create something visually similar to UMD's websites in anticipation of an on-campus interview with some of their web development representatives. You can check out the site <a href="https://umiacs.umd.edu/~alugocp">here</a>.</full>
+		</entry>
+		<entry>
 			<title>WebStatic</title>
 			<info label="Developed">Summer 2018</info>
 			<info label="Languages">Node</info>
@@ -143,7 +173,10 @@
 			<title>Toolbox</title>
 			<info label="Developed">Summer 2018</info>
 			<info label="Languages">Python, JavaScript</info>
-			<full>An online repository of all the developer tools I've built. This was my first foray into using Python Flask, since it made it easier to upload the server onto PythonAnywhere's website. It was also the first server-backed app I've ever published, so, yay me.</full>
+			<full>
+				An online repository of all the developer tools I've built. This was my first foray into using Python Flask, since it made it easier to upload the server onto PythonAnywhere's website.
+				It was also the first server-backed app I've ever published, so, yay me. You can access the site <a href="https://alugocp.github.io/toolbox/">here</a>.
+			</full>
 		</entry>
 		<entry>
 			<title>Web Designer Ad</title>
@@ -249,15 +282,6 @@
 		<entry>
 			<title>Welcome to the Backburner</title>
 			<full>Welcome! This is the dark pit where I put all my ideas that I've stopped working on, either temporarily or permanently. Can't tell which is which? Well don't feel bad, even I can't!</full>
-		</entry>
-		<entry>
-			<title>Xochitl</title>
-			<info label="Developed">Fall 2017</info>
-			<info label="Languages">Python (Prototype), Node.js, ANTLR4</info>
-			<info label="Prototyped">March thru May 2017</info>
-			<icon src="xochitl.png"></icon>
-			<summary>Xochitl is a Nahuatl word that comes from the name Xochipilli, the Aztec god of art. Xochitl is the first programming language I've ever built. It's a scripting language designed to make simple imagery such as logos. The language uses a procedural/imperative paradigm and is based on Ruby, C and Lisp. I plan on using Xochitl to give all my projects a unique aesthetic identity.</summary>
-			<full>Xochitl went through various different iterations as I learned more about language design. At first I had the interpreter read the source code without any bytecode conversion, but obviously that made the language too slow. Xochitl's next iteration saw the introduction of a simple virtual machine prototype. My next design will compile Xochitl code into JavaScript and run it on the Node platform. I'd like to eventually build a fully-functional VM to run native Xochitl on, but I just don't have the time to develop it right now.</full>
 		</entry>
 		<!--<entry>
 			<title>"Apps for Africa" Software Suite</title>
