@@ -98,26 +98,6 @@
 	<!--Current Projects-->
 	<section name="Current Projects">
 		<entry>
-			<title>Xochitl</title>
-			<info label="Developed">September 2018</info>
-			<info label="Languages">Python (Prototype), ANTLR4 (Prototype), Node.js</info>
-			<info label="Prototyped">Spring 2017, Fall 2017</info>
-			<icon src="xochitl.svg" height="200"></icon>
-			<offset>New!</offset>
-			<summary>
-				Xochitl is a Nahuatl word that comes from the name Xochipilli, the Aztec god of art.
-				Xochitl is officially the first programming language I've ever built. Its primary use is to create mathematically-precise SVG graphics. The icon you see to the right was actually one of the first images I designed in Xochitl.
-				As a fan of out-there languages and paradigms, I tried to make Xochitl as weird as I possibly could while still justifying all my design choices. The language is graph-based, which gives it strange properties like non-importance of the order of source code lines.
-				There are also functional, logical and object-oriented elements sprinkled throughout the language for good measure. Having finally built it, I'm extremely proud of what this language has become.
-				I plan on using Xochitl to give all my projects a unique aesthetic identity using infinitely-scaling vector graphics.
-			</summary>
-			<full>
-				Xochitl went through various different iterations as I learned more about language design. At first I had the interpreter read the source code without any bytecode conversion, but obviously that made the language too slow.
-				Xochitl's next iteration saw the introduction of a simple virtual machine prototype. The language had a procedural/imperative paradigm back then with syntax heavily inspired by Ruby, C and Lisp (but it was basically a Python ripoff).
-				A year later I would finally completely redesign the language as a Node library with accompanying IDE. The current design compiles Xochitl source code directly into an SVG-format vector graphic.
-			</full>
-		</entry>
-		<entry>
 			<title>EqualsEquals Website</title>
 			<info label="Developed">Fall 2018</info>
 			<info label="Platforms">WebStatic</info>
@@ -147,6 +127,18 @@
 			<info label="Languages">C++, Python, R, Bash</info>
 			<summary>I worked with the University of Maryland to develop a C++ program designed to search through DNA. The program can detect areas between two DNA strands that perform a similar function. We use this program to detect conserved enhancer genes across species.</summary>
 		</entry>
+		<entry>
+			<title>Women in Physics Website</title>
+			<offset>New!</offset>
+		</entry>
+		<entry>
+			<title>Project: DataViz</title>
+			<offset>New!</offset>
+		</entry>
+		<entry>
+			<title>Project: CyberWeb</title>
+			<offset>New!</offset>
+		</entry>
 	</section>
 
 	<!--Past Projects-->
@@ -154,6 +146,25 @@
 		<entry>
 			<title>About This Section: Continual Development</title>
 			<full>I continue to tweak many of these projects from time to time. Projects don't make it to this section until after I've completed their launch patch, so some still receive updates after being moved here.</full>
+		</entry>
+		<entry>
+			<title>Xochitl</title>
+			<info label="Developed">September 2018</info>
+			<info label="Languages">Python (Prototype), ANTLR4 (Prototype), Node.js</info>
+			<info label="Prototyped">Spring 2017, Fall 2017</info>
+			<icon src="xochitl.svg" height="200"></icon>
+			<summary>
+				Xochitl is a Nahuatl word that comes from the name Xochipilli, the Aztec god of art.
+				Xochitl is officially the first programming language I've ever built. Its primary use is to create mathematically-precise SVG graphics. The icon you see to the right was actually one of the first images I designed in Xochitl.
+				As a fan of out-there languages and paradigms, I tried to make Xochitl as weird as I possibly could while still justifying all my design choices. The language is graph-based, which gives it strange properties like non-importance of the order of source code lines.
+				There are also functional, logical and object-oriented elements sprinkled throughout the language for good measure. Having finally built it, I'm extremely proud of what this language has become.
+				I plan on using Xochitl to give all my projects a unique aesthetic identity using infinitely-scaling vector graphics.
+			</summary>
+			<full>
+				Xochitl went through various different iterations as I learned more about language design. At first I had the interpreter read the source code without any bytecode conversion, but obviously that made the language too slow.
+				Xochitl's next iteration saw the introduction of a simple virtual machine prototype. The language had a procedural/imperative paradigm back then with syntax heavily inspired by Ruby, C and Lisp (but it was basically a Python ripoff).
+				A year later I would finally completely redesign the language as a Node library with accompanying IDE. The current design compiles Xochitl source code directly into an SVG-format vector graphic.
+			</full>
 		</entry>
 		<entry>
 			<title>Personal UMD Page</title>
@@ -168,6 +179,17 @@
 			<summary><a href="https://alugocp.github.io/ws-page">WebStatic</a> is a front-end JavaScript framework for developing static web sites. It allows you to use components and URL routes without any config files, extra syntax or meta data.</summary>
 			<full>I created this project to help me build my Project: Cyan web application, which is still under development. The framework was built in Node.js and can be downloaded from the npm tool. This project was my first foray into publishing npm packages and my return to using GitHub like a pro.</full>
 			<icon src="ws-hex.png"></icon>
+		</entry>
+		<entry>
+			<title>Opener</title>
+			<info label="Developed">Summer 2018</info>
+			<info label="Languages">Python, Bash</info>
+			<info label="Version">1.0</info>
+			<icon height="100px" src="opener.svg"></icon>
+			<full>
+				Opener is a simple CLI tool that allows you to open any of your web projects in your default browser.
+				I wanted to be able to immediately open my local projects without having to click through directories.
+			</full>
 		</entry>
 		<entry>
 			<title>Toolbox</title>
