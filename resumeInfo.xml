@@ -101,14 +101,13 @@
 			<title>EqualsEquals Website</title>
 			<info label="Developed">Fall 2018</info>
 			<info label="Platforms">WebStatic</info>
-			<offset>New!</offset>
 			<full>I have the pleasure of leading a web dev team that's rebuilding the official website of EqualsEquals hackathon.</full>
 		</entry>
 		<entry>
 			<title>Cyan Pepper</title>
 			<info label="Developed">Summer 2018</info>
 			<info label="Languages">JavaScript, Python, Node, SQL</info>
-			<info label="Platforms">WebStatic, MySQL</info>
+			<info label="Platforms">WebStatic, Flask, MySQL</info>
 			<icon src="cyan-pepper.svg" height="200"></icon>
 			<summary>
 				I read an article once explaining the new Marvel NOW 2.0 comic line by Marvel comics. Marvel likes to publish new branches of stories every few years (instead of expecting readers to keep track of all their decades-long continuity).
@@ -128,11 +127,20 @@
 			<summary>I worked with the University of Maryland to develop a C++ program designed to search through DNA. The program can detect areas between two DNA strands that perform a similar function. We use this program to detect conserved enhancer genes across species.</summary>
 		</entry>
 		<entry>
-			<title>Women in Physics Website</title>
-			<offset>New!</offset>
+			<title>DataDrop</title>
+			<icon src="datadrop.svg" height="100"></icon>
+			<info label="Languages">JavaScript, Node.js, Bash</info>
+			<info label="Platforms">Bootstrap</info>
+			<info label="Prototyped">October 2018</info>
+			<summary>
+				I built this webapp along with my friend at HackUMBC 2018.
+				It's a web-based platform designed to connect developers with data that they need but might not know exists.
+				It also allows developers to use our overview visualization API.
+			</summary>
 		</entry>
 		<entry>
-			<title>Project: DataViz</title>
+			<title>Women in Physics Website</title>
+			<icon src="wip-atom.svg" height="75"></icon>
 			<offset>New!</offset>
 		</entry>
 		<entry>
