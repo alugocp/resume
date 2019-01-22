@@ -4,6 +4,7 @@
 	height:100vh;
 }
 #page{
+	overflow-x:scroll;
 	position:relative;
 	flex:1;
 }

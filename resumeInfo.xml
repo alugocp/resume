@@ -4,7 +4,7 @@
 	<section name="Biography">
 		<entry>
 			<title>Who I am</title>
-			<full>I'm a 19-year-old who wants to make a living off of programming and travel the world in the process. I've developed applications in multiple languages for various different platforms including Android, desktop and web.</full>
+			<full>I'm a 20-year-old who wants to make a living off of programming and travel the world in the process. I've developed applications in multiple languages for various different platforms including Android, desktop and web.</full>
 		</entry>
 		<entry>
 			<title>Languages Spoken</title>
@@ -101,7 +101,36 @@
 			<title>EqualsEquals Website</title>
 			<info label="Developed">Fall 2018</info>
 			<info label="Platforms">WebStatic</info>
-			<full>I have the pleasure of leading a web dev team that's rebuilding the official website of EqualsEquals hackathon.</full>
+			<full>
+				I have the pleasure of leading a web dev team that's rebuilding the official website of EqualsEquals hackathon.
+				EqualsEquals is a hackathon at the University of Maryland that aims to boost the number of minorities in tech.
+			</full>
+		</entry>
+		<entry>
+			<title>Regulatory Enhancer Analysis Package</title>
+			<info label="Developed">Summer 2017 thru Summer 2018</info>
+			<info label="Languages">C++, Python, R, Bash</info>
+			<summary>I worked with the University of Maryland to develop a C++ program designed to search through DNA. The program can detect areas between two DNA strands that perform a similar function. We use this program to detect conserved enhancer genes across species.</summary>
+		</entry>
+	</section>
+
+	<!--Past Projects-->
+	<section name="Past Projects">
+		<entry>
+			<title>About This Section: Continual Development</title>
+			<full>I continue to tweak many of these projects from time to time. Projects don't make it to this section until after I've completed their launch patch, so some still receive updates after being moved here.</full>
+		</entry>
+		<entry>
+			<title>DataDrop</title>
+			<icon src="datadrop.svg" height="100"></icon>
+			<info label="Languages">JavaScript, Node.js, Bash</info>
+			<info label="Platforms">Bootstrap</info>
+			<info label="Prototyped">October 2018</info>
+			<summary>
+				I built this webapp along with my friend at HackUMBC 2018.
+				It's a web-based platform designed to connect developers with data that they need but might not know exists.
+				It also allows developers to use our overview visualization API.
+			</summary>
 		</entry>
 		<entry>
 			<title>Cyan Pepper</title>
@@ -119,37 +148,6 @@
 				Simply type a topic into the search bar and hit go to start your scientific journey. Cyan Pepper implements a webcrawler in Node.js that searches online articles for juicy research articles and then extracts and logs their relevant metadata into a MySQL database.
 				The client app can query the database through a minimalist Python Flask server.
 			</full>
-		</entry>
-		<entry>
-			<title>Regulatory Enhancer Analysis Package</title>
-			<info label="Developed">Summer 2017 thru Summer 2018</info>
-			<info label="Languages">C++, Python, R, Bash</info>
-			<summary>I worked with the University of Maryland to develop a C++ program designed to search through DNA. The program can detect areas between two DNA strands that perform a similar function. We use this program to detect conserved enhancer genes across species.</summary>
-		</entry>
-		<entry>
-			<title>DataDrop</title>
-			<icon src="datadrop.svg" height="100"></icon>
-			<info label="Languages">JavaScript, Node.js, Bash</info>
-			<info label="Platforms">Bootstrap</info>
-			<info label="Prototyped">October 2018</info>
-			<summary>
-				I built this webapp along with my friend at HackUMBC 2018.
-				It's a web-based platform designed to connect developers with data that they need but might not know exists.
-				It also allows developers to use our overview visualization API.
-			</summary>
-		</entry>
-		<entry>
-			<title>Women in Physics Website</title>
-			<icon src="wip-atom.svg" height="75"></icon>
-			<offset>New!</offset>
-		</entry>
-	</section>
-
-	<!--Past Projects-->
-	<section name="Past Projects">
-		<entry>
-			<title>About This Section: Continual Development</title>
-			<full>I continue to tweak many of these projects from time to time. Projects don't make it to this section until after I've completed their launch patch, so some still receive updates after being moved here.</full>
 		</entry>
 		<entry>
 			<title>Xochitl</title>
@@ -316,6 +314,11 @@
 			<icon src="africa.png"></icon>
 			<summary>I'm proud to say that I get to develop a few apps (on both mobile and web platforms) with the help of the <a href="https://www.wilsoncenter.org/">Woodrow Wilson Center's</a> Africa program. I'll post more information on these apps closer to their unveiling. I'm currently making good progress on all 3 of the planned apps.</summary>
 		</entry>-->
+		<entry>
+			<title>Women in Physics Website</title>
+			<icon src="wip-atom.svg" height="75"></icon>
+			<offset>New!</offset>
+		</entry>
 		<entry>
 			<title>Cartoon Game</title>
 			<info label="Languages">Java</info>
