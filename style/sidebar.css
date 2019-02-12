@@ -19,6 +19,7 @@
 	white-space:nowrap;
 	border-width:var(--sidebar-border);
 	position:fixed;
+	height:100%;
 	left:0px;
 	top:0px;
 }
@@ -55,15 +56,16 @@ li.list-group-item{
 
 /* menu button */
 #menu{
-	background-color:black;
-	color:white;
-	font-size:18px;
-	border-radius:0px 9px;
-	padding:5px;
-	margin-left:-5px;
-	top:10px;
-	position:fixed;
 	transition:background-color 0.1s ease;
+	background-color:black;
+	border-radius:0px 9px;
+	margin-left:-5px;
+	font-size:18px;
+	position:fixed;
+	color:white;
+	padding:5px;
+	z-index:1;
+	top:10px;
 }
 #menu:hover{
 	background-color:#5c5c5c;

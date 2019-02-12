@@ -22,7 +22,12 @@ var colors={
   original:function(){
     colors.colorize(["seagreen","maroon","pink"]);
     colors.profile="images/profile1.png";
+  },
+  purple:function(){
+    colors.colorize(["#70049f","#8b0fc1","#d977ff"]);
+    colors.profile="images/profile-youtube.png";
   }
 }
 //colors.seasonal(new Date().getMonth());
-colors.original();
+//colors.original();
+colors.purple();

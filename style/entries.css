@@ -1,8 +1,9 @@
 div.body{
-	padding:20px;
-	padding-left:40px;
 	font-family:sans-serif;
+	position:relative;
+	padding-left:40px;
 	font-size:16px;
+	padding:20px;
 }
 h3{
 	color:var(--secondary-color);
@@ -18,13 +19,14 @@ a{
 	color:var(--secondary-color);
 }
 a.more{
-	display:block;
-	margin-top:10px;
 	transition:color 0.1s ease;
+	margin-top:10px;
+	cursor:pointer;
+	display:block;
 }
 a.more:hover{
-	text-decoration:none;
 	color:var(--lighter-secondary);
+	text-decoration:none;
 }
 a.btn{
 	display:block;
@@ -57,4 +59,8 @@ img.content{
 span.info{
 	color:var(--secondary-color);
 	font-weight:bold;
+}
+code{
+	color:var(--secondary-color);
+	background-color:none;
 }

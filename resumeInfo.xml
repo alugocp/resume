@@ -7,13 +7,20 @@
 			<full>I'm a 20-year-old who wants to make a living off of programming and travel the world in the process. I've developed applications in multiple languages for various different platforms including Android, desktop and web.</full>
 		</entry>
 		<entry>
+			<title>YouTube</title>
+			<full>
+				I'm also a YouTuber!
+				So if you'd like to keep up to date with my projects, subscribe to my channel <a href="https://www.youtube.com/channel/UCe076uBvUGXWHxk_v0TqdJQ">here</a>.
+			</full>
+		</entry>
+		<!--<entry>
 			<title>Languages Spoken</title>
 			<full>At the moment I only speak 2 languages - I am a native English speaker and I largely taught myself conversational Spanish. I know a few phrases and words in Mandarin Chinese, though I am still learning the language. I intend to learn many other languages so I can better communicate around the world.</full>
 		</entry>
 		<entry>
 			<title>Hobbies</title>
 			<full>I love exploring. I always enjoy myself whether I'm hiking, biking, or getting lost in DC. I've traveled as far as Canada, Puerto Rico and Nicaragua. It's my dream to one day leave the western hemisphere and explore Afro-Eurasia and the pacific islands (and maybe even Antarctica) for a while. The rest of my hobbies can be found in the extracurriculars section.</full>
-		</entry>
+		</entry>-->
 		<entry>
 			<title>More About This Site</title>
 			<full>I got the idea to build this site in my junior year of high school. I needed a project to do, and around then I had been giving out resumes to multiple jobs and colleges. The concept of this site began as a database of sorts that I could pull from to make my resumes more easily. As I got more comfortable with being a professional programmer, I began just using this site as my resume. Since then it's evolved some of the aspects of an auto-biography or even a blog. It's my hope that the site continues to develop alongside my career.</full>
@@ -302,11 +309,11 @@
 	</section>
 
 	<!--The Backburner-->
-	<section name="The Backburner">
+	<!--<section name="The Backburner">
 		<entry>
 			<title>Welcome to the Backburner</title>
 			<full>Welcome! This is the dark pit where I put all my ideas that I've stopped working on, either temporarily or permanently. Can't tell which is which? Well don't feel bad, even I can't!</full>
-		</entry>
+		</entry>-->
 		<!--<entry>
 			<title>"Apps for Africa" Software Suite</title>
 			<info label="Developed">Began March 3, 2017</info>
@@ -314,7 +321,7 @@
 			<icon src="africa.png"></icon>
 			<summary>I'm proud to say that I get to develop a few apps (on both mobile and web platforms) with the help of the <a href="https://www.wilsoncenter.org/">Woodrow Wilson Center's</a> Africa program. I'll post more information on these apps closer to their unveiling. I'm currently making good progress on all 3 of the planned apps.</summary>
 		</entry>-->
-		<entry>
+		<!--<entry>
 			<title>Women in Physics Website</title>
 			<icon src="wip-atom.svg" height="75"></icon>
 			<offset>New!</offset>
@@ -326,7 +333,7 @@
 			<full>An Android game that I used to love working on, but then school started up again and I lost the time to work on it. I really would like to finish this some day, though it would be nice to team up with an artist so I could focus just on coding.</full>
 			<image src="cartoon.jpg" height="250"></image>
 		</entry>
-	</section>
+	</section>-->
 
 	<!--Programming Skills-->
 	<section name="Programming Skills">
@@ -411,7 +418,7 @@
 	</section>
 
 	<!--Extracurriculars-->
-	<section name="Extracurriculars">
+	<!--<section name="Extracurriculars">
 		<entry>
 			<title>Rugby</title>
 			<summary>It was during sophomore year in high school that I wanted to join an afterschool activity. One of my friends suggested Rugby and I fell in love after the first practice.</summary>
@@ -427,13 +434,17 @@
 			<summary>I served as vice president of my school's computer club for two years in a row. Computer club is an after-schol activity held every Wednesday where students can learn about programming and other aspects of computer science and engineering.</summary>
 			<full>A friend and I brought the club back from the brink of permanent cancellation. I created a <a href="http://bit.ly/erhscompclub">website</a> for the club so we could teach kids more efficiently, and I gave lectures about programming and computer science every Wednesday.</full>
 		</entry>
-	</section>
+	</section>-->
 
 	<!--Contact-->
 	<section name="Contact">
 		<entry>
 			<title>GitHub</title>
-			<full>Whether you're a potential employer, college admissions officer or just want to look at some of my code, here's my <a href="https://github.com/alugocp">GitHub</a>. It doesn't have all my projects on it, but I figured I'd still provide a link anyway.</full>
+			<full>Here's my <a href="https://github.com/alugocp">GitHub</a>. It doesn't have all my projects on it, but I figured I'd still provide a link anyway.</full>
+		</entry>
+		<entry>
+			<title>YouTube</title>
+			<full>In case you missed it before, <a href="https://www.youtube.com/channel/UCe076uBvUGXWHxk_v0TqdJQ">follow me on YouTube</a>!</full>
 		</entry>
 		<entry>
 			<title>Facebook</title>
@@ -442,6 +453,10 @@
 		<entry>
 			<title>Twitter</title>
 			<full>Here's my personal <a href="https://twitter.com/alugocp">Twitter account</a>.</full>
+		</entry>
+		<entry>
+			<title>Instagram</title>
+			<full>Yeah I've got an <a href="https://instagram.com/alugocp1">Instagram</a> too</full>
 		</entry>
 		<entry>
 			<title>LinkedIn</title>

@@ -96,33 +96,29 @@ var site={
     $("#heading").html("<h1>"+section+"</h1>");
     $("#"+site.toId(section)).show();
   },
-  setupContent:function(){
-    $.get("resumeInfo.xml",null,function(data){
-      data=$(data.children[0]);
-      var index=0;
-      data.children().each(function(){
-        var section=$("<span></span>");
-        section.attr("id",site.toId($(this).attr("name")));
-        $(this).children().each(function(){
-          section.append(site.entry($(this),index++));
-        });
-        section.hide();
-        $("#content").append(section);
+  setupContent:function(data){
+    data=$(data.children[0]);
+    var index=0;
+    data.children().each(function(){
+      var section=$("<span></span>");
+      section.attr("id",site.toId($(this).attr("name")));
+      $(this).children().each(function(){
+        section.append(site.entry($(this),index++));
       });
-      site.loadContent("Biography");
-      setTimeout(Lodr.display,300);
+      section.hide();
+      $("#content").append(section);
     });
+    site.loadContent("Biography");
+    setTimeout(Lodr.display,300);
   },
-  setSections:function(){
-    $.get("resumeInfo.xml",null,function(data){
-      data=$(data.children[0]);
-      data.children().each(function(){
-        $("#list").append($("<a class='list-group-item'>"+$(this).attr("name")+"</a>"));
-      });
-      $("a.list-group-item").click(function(){
-        site.loadContent($(this).html())
-      });
-    })
+  setSections:function(data){
+    data=$(data.children[0]);
+    data.children().each(function(){
+      $("#list").append($("<a class='list-group-item'>"+$(this).attr("name")+"</a>"));
+    });
+    $("a.list-group-item").click(function(){
+      site.loadContent($(this).html())
+    });
   },
   setSidebarHeight:function(){
     $("#sidebar").height(window.innerHeight);
@@ -136,7 +132,9 @@ $("#menu").click(function(){
   if(margin.css("width")=="200px") margin.css("width","0px");
   else margin.css("width","200px");
 });
-$(window).resize(site.setSidebarHeight);
-site.setSections();
-site.setSidebarHeight();
-site.setupContent();
+//$(window).resize(site.setSidebarHeight);
+$.get("resumeInfo.xml",null,function(data){
+  site.setSections(data);
+  //site.setSidebarHeight();
+  site.setupContent(data);
+});
