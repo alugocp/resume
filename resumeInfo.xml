@@ -4,26 +4,22 @@
 	<section name="Biography">
 		<entry>
 			<title>Who I am</title>
-			<full>I'm a 20-year-old who wants to make a living off of programming and travel the world in the process. I've developed applications in multiple languages for various different platforms including Android, desktop and web.</full>
+			<full>
+				I'm 20 years old and I want to start a company.
+				Basically I want to build you whatever sort of software you need!
+				How else am I going to get my dreams off the ground?
+			</full>
 		</entry>
 		<entry>
 			<title>YouTube</title>
 			<full>
 				I'm also a YouTuber!
-				So if you'd like to keep up to date with my projects, subscribe to my channel <a href="https://www.youtube.com/channel/UCe076uBvUGXWHxk_v0TqdJQ">here</a>.
+				So if you'd like to keep up to date with my projects, subscribe to my channel <a href="https://www.youtube.com/alexlugo">here</a>.
 			</full>
 		</entry>
-		<!--<entry>
-			<title>Languages Spoken</title>
-			<full>At the moment I only speak 2 languages - I am a native English speaker and I largely taught myself conversational Spanish. I know a few phrases and words in Mandarin Chinese, though I am still learning the language. I intend to learn many other languages so I can better communicate around the world.</full>
-		</entry>
-		<entry>
-			<title>Hobbies</title>
-			<full>I love exploring. I always enjoy myself whether I'm hiking, biking, or getting lost in DC. I've traveled as far as Canada, Puerto Rico and Nicaragua. It's my dream to one day leave the western hemisphere and explore Afro-Eurasia and the pacific islands (and maybe even Antarctica) for a while. The rest of my hobbies can be found in the extracurriculars section.</full>
-		</entry>-->
 		<entry>
 			<title>More About This Site</title>
-			<full>I got the idea to build this site in my junior year of high school. I needed a project to do, and around then I had been giving out resumes to multiple jobs and colleges. The concept of this site began as a database of sorts that I could pull from to make my resumes more easily. As I got more comfortable with being a professional programmer, I began just using this site as my resume. Since then it's evolved some of the aspects of an auto-biography or even a blog. It's my hope that the site continues to develop alongside my career.</full>
+			<full>I got the idea to build this site in my junior year of high school. I needed a project to do, and around then I had been giving out resumes to multiple jobs and colleges. The concept of this site began as a database of sorts that I could pull from to make my resumes more easily. As I got more comfortable with being a professional programmer, I began just using this site as my resume. Since then it's evolved some of the aspects of an auto-biography or even a blog.</full>
 		</entry>
 	</section>
 
@@ -31,7 +27,10 @@
 	<section name="Academics">
 		<entry>
 			<title>College</title>
-			<full>I'm a sophomore at the University of Maryland in College Park, Maryland. I'm pursuing a bachelor's degree in computer science with hopes of getting my master's and maybe eventually a PhD.</full>
+			<full>
+				I'm a junior at the University of Maryland in College Park, Maryland.
+				I'm pursuing a bachelor's degree in computer science and I may eventually try for a PhD.
+			</full>
 		</entry>
 		<entry>
 			<title>High School</title>
@@ -39,7 +38,7 @@
 		</entry>
 		<entry>
 			<title>GPA</title>
-			<full>I had a cumulative GPA over 4.0 upon graduating high school.</full>
+			<full>I had a cumulative GPA of over 4.0 upon graduating high school.</full>
 		</entry>
 		<entry>
 			<title>AP Classes/Exams</title>
@@ -96,28 +95,51 @@
 	<!--Publications-->
 	<section name="Publications">
 		<entry>
+			<title>Beyond Synthetic Lethality: Charting the Landscape of Pairwise Gene Expression States Associated with Survival in Cancer</title>
+			<info label="Journal">Cell Reports</info>
+			<full>
+				My role in this paper was part of my high school internship at the University of Maryland.
+				I developed a web-based GUI for visualizing how different gene expression interactions affected the rate of cancer survival.
+				A graduate student had already processed all of the statistical data that the site would use (as this was primarily his project).
+				I just had to make it accessible and visually appealing.
+				You can read the paper <a href="https://www.cell.com/cell-reports/fulltext/S2211-1247(19)30847-2">here</a>.
+			</full>
+		</entry>
+		<entry>
 			<title>Putative Functional Genes in Idiopathic Dilated Cardiomyopathy</title>
 			<info label="Journal">Scientific Reports</info>
-			<full>During my senior year in high school I was able to help out a local grad student with his research project. My friend Nishanth Nair was working on a model that could better predict which genes play a role in heart disease. His method was called Hridaya and he tasked me with creating a website one could use to search through his findings. I agreed and ended up as a co-author when he published his paper. You can see more information on my contribution under Heart Disease Webapp in the Past Projects section.</full>
+			<full>
+				During my senior year in high school I was able to help out a local grad student with his research project.
+				My friend Nishanth Nair was working on a model that could better predict which genes play a role in heart disease.
+				His method was called Hridaya and he tasked me with creating a website one could use to search through his findings.
+				I agreed and ended up as a co-author when he published his paper.
+				You can see more information on my contribution under Heart Disease Webapp in the Past Projects section.
+				You can also find the paper <a href="https://www.nature.com/articles/s41598-017-18524-2">here</a>.
+			</full>
 		</entry>
 	</section>
 
 	<!--Current Projects-->
 	<section name="Current Projects">
 		<entry>
-			<title>EqualsEquals Website</title>
-			<info label="Developed">Fall 2018</info>
-			<info label="Platforms">WebStatic</info>
+			<title>Project: Pegasus</title>
+			<info label="Developed">Summer 2019</info>
+			<info label="Languages">OCaml, C</info>
 			<full>
-				I have the pleasure of leading a web dev team that's rebuilding the official website of EqualsEquals hackathon.
-				EqualsEquals is a hackathon at the University of Maryland that aims to boost the number of minorities in tech.
+				At the end of the summer I started work on a speech interpreter neural network in OCaml.
+				I've put this project on the side recently to pursue more profitable endeavors but I will eventually return to it.
 			</full>
 		</entry>
 		<entry>
 			<title>Regulatory Enhancer Analysis Package</title>
-			<info label="Developed">Summer 2017 thru Summer 2018</info>
+			<info label="Developed">Summer 2017 thru Summer 2019</info>
 			<info label="Languages">C++, Python, R, Bash</info>
-			<summary>I worked with the University of Maryland to develop a C++ program designed to search through DNA. The program can detect areas between two DNA strands that perform a similar function. We use this program to detect conserved enhancer genes across species.</summary>
+			<full>
+				I worked with the University of Maryland to develop a C++ program designed to search through DNA.
+				The program can detect areas between two DNA strands that perform a similar function.
+				We're still conducting research to ensure the code's biological validity.
+				Once we've done that, I will publish a paper detailing our analysis.
+			</full>
 		</entry>
 	</section>
 
@@ -127,6 +149,65 @@
 			<title>About This Section: Continual Development</title>
 			<full>I continue to tweak many of these projects from time to time. Projects don't make it to this section until after I've completed their launch patch, so some still receive updates after being moved here.</full>
 		</entry>
+
+		<entry>
+			<title>Project: Swords</title>
+			<info label="Languages">Java</info>
+			<info label="Platforms">Android</info>
+			<info label="Prototyped">Summer 2019</info>
+			<image src="swords.jpg" height="350"></image>
+			<full>
+				I was in a creative rut one day so I decided to create a small Android game in the span of two days.
+				On the first day I did all the coding and art and on the second day I put them all together.
+				All in all it was more like a day and a half but still a fun experience nonetheless.
+			</full>
+		</entry>
+		<entry>
+			<title>Donut-Hashing Algorithm</title>
+			<icon src="donut.png" height="150"></icon>
+			<info label="Languages">Rust</info>
+			<info label="Platforms">WebAssembly</info>
+			<info label="Prototyped">Summer 2019</info>
+			<full>
+				I was hungry in class one so I decided, <i>Why not hash files into donuts?</i>
+				And thus I began work on my first big Rust project.
+				I created a simple CLI that took in any file you wanted and converted it into a tasty donut.
+				After that I ported it to the browser via WebAssembly, a new technology I'm also very excited about.
+				You can find the web verison <a href="https://alugocp.github.io/donut">here</a>.
+			</full>
+		</entry>
+		<entry>
+			<title>SNES USB Controller Driver</title>
+			<info label="Languages">Python (prototype), C</info>
+			<info label="Prototyped">Spring 2019</info>
+			<full>
+				I created my own custom USB driver for an SNES controller because I wanted to play Super Mario World on my laptop.
+				I prototyped the idea in Python with a USB library and then I rewrote it in C for performance.
+			</full>
+		</entry>
+		<entry>
+			<title>Nth-Dimensional Evolutionary Automata</title>
+			<info label="Languages">Ruby</info>
+			<info label="Platforms">Ruby2D</info>
+			<info label="Prototyped">Winter 2018</info>
+			<image src="automata.png" height="250"></image>
+			<full>
+				I wanted to create my own cellular automata, so I created my own cellular automata. Nuff said.
+			</full>
+		</entry>
+		<entry>
+			<title>Project: Quest</title>
+			<info label="Languages">Lua</info>
+			<info label="Platforms">Android, Love2D</info>
+			<info label="Prototyped">Fall 2018</info>
+			<image src="quest.jpg" height="350"></image>
+			<full>
+				This was a simple idle clicker game I built for Android.
+				The goal was for you to select a level to visit and tap on every enemy until they die.
+				It played a lot like cookie clicker but without carpal tunnel because you got to tap instead of clicking all the time.
+			</full>
+		</entry>
+
 		<entry>
 			<title>DataDrop</title>
 			<icon src="datadrop.svg" height="100"></icon>
@@ -138,6 +219,18 @@
 				It's a web-based platform designed to connect developers with data that they need but might not know exists.
 				It also allows developers to use our overview visualization API.
 			</summary>
+		</entry>
+		<entry>
+			<title>CivSim4: WorldSim</title>
+			<info label="Languages">Java</info>
+			<info label="Prototyped">Summer 2018</info>
+			<image src="civsim4.png" height="250"></image>
+			<full>
+				After finishing the enormously ambitious CivSim3, I decided to relax and build yet another entry in my favorite project series.
+				CivSim4 focuses on a much larger space - an entire planet!
+				In addition to the increased scale, this version has a much more sleek visual than the previous versions.
+				It implements a lot of subtle new ideas that I'll be sure to expand upon in any future versions.
+			</full>
 		</entry>
 		<entry>
 			<title>Cyan Pepper</title>
@@ -238,7 +331,7 @@
 			<image src="prochoiceaid.png" height="250"></image>
 		</entry>
 		<entry>
-			<title>CivSim 3.0: Alex Lugo's Civilization</title>
+			<title>CivSim3: Alex Lugo's Civilization</title>
 			<info label="Developed">January thru March 2017</info>
 			<info label="Languages">Java, Ruby</info>
 			<summary>I had thought I was done with CivSim projects, but then I discovered Sid Meier's Civilization VI videos on Youtube. The inspiration bug bit me and I just couldn't help but make another CivSim program. This version is everything I dreamed about when I built the first two. It revisits concepts found in my previous CivSim projects while introducing some entirely new ones (such as culture and language).</summary>
@@ -313,18 +406,6 @@
 		<entry>
 			<title>Welcome to the Backburner</title>
 			<full>Welcome! This is the dark pit where I put all my ideas that I've stopped working on, either temporarily or permanently. Can't tell which is which? Well don't feel bad, even I can't!</full>
-		</entry>-->
-		<!--<entry>
-			<title>"Apps for Africa" Software Suite</title>
-			<info label="Developed">Began March 3, 2017</info>
-			<info label="Languages">JavaScript, Python, PHP, Java, possibly Swift or Xojo</info>
-			<icon src="africa.png"></icon>
-			<summary>I'm proud to say that I get to develop a few apps (on both mobile and web platforms) with the help of the <a href="https://www.wilsoncenter.org/">Woodrow Wilson Center's</a> Africa program. I'll post more information on these apps closer to their unveiling. I'm currently making good progress on all 3 of the planned apps.</summary>
-		</entry>-->
-		<!--<entry>
-			<title>Women in Physics Website</title>
-			<icon src="wip-atom.svg" height="75"></icon>
-			<offset>New!</offset>
 		</entry>
 		<entry>
 			<title>Cartoon Game</title>
@@ -352,6 +433,14 @@
 			<full>I taught myself basic C++ between high school and college and then took a class on C my freshman year. I've mastered most low-level concepts and am currently finishing up a year-long C++ project. C is one of my favorite languages to code in simply because of how fast it runs and how much control I have when optimizing my code.</full>
 		</entry>
 		<entry>
+			<title>Rust</title>
+			<full>
+				In addition to C/C++ I also love the Rust programming language.
+				I haven't kept up with the bleeding edge compiler releases but I'm becoming more and more comfortable using it for lower-level, high-performance purposes.
+				See the donut-hashing algorithm in my past projects section for an example of my work in Rust.
+			</full>
+		</entry>
+		<entry>
 			<title>Python</title>
 			<full>I had originally learned this language in a week when I was working on my CivSim 2.0 project. I've since come bask to master it, and it is now one of my favorite languages to code in. I especially love to prototype and script in Python. I prefer R for data science applications, but I still occasionally use Python for it from time to time.</full>
 		</entry>
@@ -365,23 +454,29 @@
 			<full>Ruby was actually the first language I had ever learned, although all I really knew was <code>puts</code> and <code>gets.chomp</code> back in fourth grade.</full>
 		</entry>
 		<entry>
+			<title>Functional Programming</title>
+			<full>
+				I admit it, I like functional programming.
+				I've done some stuff in OCaml, which I'd regard as my most used functional language.
+				I want to branch out into Haskell and Scala at some point.
+			</full>
+		</entry>
+		<entry>
 			<title>Linux</title>
 			<full>I develop on a Ubuntu laptop, so I know how to use Linux. I have some experience with networking using ssh requests, and I know all the basics of the command line. I also script my own developer tools in Bash.</full>
 		</entry>
 		<entry>
-			<title>Text Processing with ANTLR4</title>
-			<full>I can use a software called ANTLR4 to process patterns in text. I used this while working on my Xochitl interpreter. ANTLR4 is commonly used in AI, compilers, and other projects that require grammar-based language processing.</full>
-		</entry>
-		<entry>
 			<title>SQL</title>
-			<full>I'm currently working on a database-driven application using Python's MySQL module. Using this module requires me to write SQL exec calls. I'm not yet an expert on databases but I'll be a whole lot better by the next time I update this site.</full>
+			<full>
+				I have used SQL (particularly MySQL) in several jobs, including WordPress sites, C#.NET legacy code and my own Cyan Pepper project (see past projects).
+				I have no troubles using the MySQL database management system to perform basic tasks.
+			</full>
 		</entry>
 		<entry>
 			<title>Wish List</title>
 			<full>There are still a lot of things I want to learn one day, so I decided to list a few here.
 				<ul>
-					<li>Languages: Scala, Groovy, OCaml, Clojure, NativeScript and Lisp</li>
-					<li>APIs: Django, Angular, Hadoop</li>
+					<li>Languages: Julia, Scala, Crystal, Kotlin and Red</li>
 				</ul>
 			</full>
 		</entry>
@@ -390,14 +485,36 @@
 	<!--Work Experience-->
 	<section name="Work Experience">
 		<entry>
+			<title>Contracting</title>
+			<full>
+				I currently pick up contracts for web, mobile or general software development.
+				I want to start my own company that develops its own software products and provided solutions for other businesses, so working on contracts is a good way to get experience and funding in the meantime.
+			</full>
+		</entry>
+		<entry>
+			<title>Web Developer</title>
+			<info label="During">Fall - Winter 2018</info>
+			<full>
+				During my sophomore year in college I worked as a web developer for our student union.
+				I mostly just maintained old C#.NET sites used by other union staff, but I did get to work on what will be the student union's first mobile app.
+			</full>
+		</entry>
+		<entry>
 			<title>Web Consultant</title>
 			<info label="During">October 2017</info>
-			<full>I build a website for Chris Cobbs, a man who formerly worked under the Obama administration. I was hired to redesign his website at <a href="http://chriscobbs.com">chriscobbs.com</a></full>
+			<full>
+				I build a website for Chris Cobbs, a man who formerly worked under the Obama administration.
+				I was hired to redesign his website at <a href="http://chriscobbs.com">chriscobbs.com</a>.
+				Since then I've designed and implemented websites for various other clients, including Maryland state senators.
+			</full>
 		</entry>
 		<entry>
 			<title>Solomon Signature Solutions</title>
 			<info label="During">Fall 2017</info>
-			<summary>I am currently working as an contracted software engineer for a local company.</summary>
+			<full>
+				I had worked as a contracted software engineer for a local company.
+				I mostly developed font-end sites using the WordPress engine.
+			</full>
 		</entry>
 		<entry>
 			<title>UMD Internship</title>
