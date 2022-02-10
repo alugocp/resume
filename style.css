@@ -10,8 +10,10 @@
 }
 
 :root {
-    --light-blue: #ACECFC;
+    --light-blue: #5EdAEA;
+    --dark-blue: #1cbfd3;
     --black: #06282C;
+    --white: #FFFFFF;
 }
 
 body {
@@ -23,8 +25,8 @@ body {
 /* Header */
 .header {
     width: 100%;
-    height: 175px;
-    background-color: var(--light-blue);
+    height: 150px;
+    background: linear-gradient(45deg, var(--dark-blue), var(--light-blue));
     position: relative;
 }
 .header .sections {
@@ -32,10 +34,29 @@ body {
     bottom: 0;
 }
 .header .sections a {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 26px;
-    margin: 5px 0px 5px 25px;
+    margin-left: 25px;
+    display: inline-block;
+    border-bottom: solid 10px transparent;
+    padding: 0 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header .sections a:hover {
+    border-bottom: solid 10px var(--white);
+}
+
+/* Portrait */
+.portrait {
+    position:relative;
+    width: 200px;
+    float: right;
+    border: solid var(--white) 10px;
+    border-radius: 15px;
+    top: -100px;
+    margin: 0 5vw;
 }
 
 /* Bibliography */
@@ -44,6 +65,14 @@ p {
     font-size: 18px;
     margin: 15px 5vw;
     line-height: 28px;
+    text-align: justify;
+}
+p a {
+    color: var(--dark-blue);
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
 }
 
 /* Contacts */
@@ -61,9 +90,15 @@ p {
     height: 50px;
 }
 .contacts a {
+    color: var(--dark-blue);
+    font-weight: bold;
     padding-left: 20px;
     font-size: 18px;
     position: absolute;
     top: 0;
     line-height: 50px;
+    text-decoration: none;
+}
+.contacts a:hover {
+    text-decoration: underline;
 }
