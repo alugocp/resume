@@ -11,4 +11,4 @@ It's not supposed to be anything fancy.
 - [x] Add contact links (with social media icons)
 - [x] Find nice graphics for the main page
 - [x] Create a projects page based off the main page
-- [ ] Make sure the website works well for smaller screens
+- [x] Make sure the website works well for smaller screens

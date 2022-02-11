@@ -52,6 +52,23 @@ body {
 .header .sections a:hover {
     border-bottom: solid 10px var(--white);
 }
+@media screen and (max-width: 600px) {
+  .header {
+    height: auto;
+  }
+  .header .sections {
+    position: relative;
+  }
+  .header .sections a{
+    border-bottom: none;
+    display: block;
+    margin: 0 5vw;
+    padding: 10px 0;
+  }
+  .header .sections a:hover {
+    border-bottom: none;
+  }
+}
 
 /* Portrait */
 .portrait {
@@ -62,6 +79,13 @@ body {
     border-radius: 15px;
     top: -100px;
     margin: 0 5vw;
+}
+@media screen and (max-width: 600px) {
+  .portrait {
+    margin-top: 40px;
+    float: none;
+    top: 0;
+  }
 }
 
 /* Bibliography */
@@ -115,4 +139,9 @@ h1 {
 }
 .contacts a:hover {
     text-decoration: underline;
+}
+@media screen and (max-width: 600px) {
+  .contacts {
+    grid-template-columns: 100%;
+  }
 }
