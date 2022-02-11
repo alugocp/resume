@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Alex Lugo - Projects</title>
+        <link rel="stylesheet" href="../style.css"/>
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <div class="sections">
+                <a href="..">Home</a>
+                <a href=".">Projects</a>
+            </div>
+        </div>
+
+        <!-- Greenworld -->
+        <h1>Greenworld</h1>
+        <p>
+            Sustainability and companion planting are some of my big interests right now.
+            I've also been looking into the (relatively) new world of computational botany.
+            I decided to do a programming project centered around this, so I came up with a data warehouse that curates novel companion planting groups.
+            I'm using Python to iterate through edible plant (and fungus) data and list the pros and cons of growing them together in different gardening styles.
+            This is one of my current projects so this section is likely to change as I progress.
+            Stay tuned for more!
+        </p>
+
+        <!-- Civilization Simulators -->
+        <h1>Civilization Simulators</h1>
+        <p>
+            Midway through high school I was inspired by various YouTube videos on AI simulations, so I decided to create my own.
+            I loved history, and I wanted to watch procedural empires rise and fall as directed by a simple neural network.
+            So over the years I've created a series of four programs that I call <i>civilization simulators</i>.
+            They're all written in Java, with the exception of the second (whose final version was done in Python).
+            Each iteration on the project has its own set of unique features, so I'll describe each one.
+        </p>
+        <p>
+            <a href="https://github.com/alugocp/CivSim1">CivSim1</a> was the most basic of the simulators.
+            It was also the first neural network I ever wrote.
+            The simulated histories weren't all that complex, but you could watch empires rise and then fall after consuming all the food on their map.
+            Cities would spawn armies, which would go out and either fight each other or found new cities.
+        </p>
+        <p>
+            <a href="https://github.com/alugocp/CivSim2">CivSim2</a> was the most popular of the simulators, since it's the first one I shared on my YouTube channel.
+            I scripted a number of conditions that gave this iteration way more life than the first one.
+            Small kingdoms would eat each other to form empires, then those would split up and the cycle would begin anew.
+            The AI was also drastically different, being more inspired by an octopus rather than a traditional neural network.
+            Each AI (emperor) would be given a list of requests from their cities.
+            The emperor's brain would be a set of weights that prioritize these requests based on various factors, since the were only allowed to fulfill so many during each turn.
+            This made for more chaotic simulations, which I thought better resembled real history.
+        </p>
+        <p>
+            <a href="https://github.com/alugocp/CivSim3">CivSim3</a> was easily the most complex iteration.
+            I built this one with two modes - the standard auto pilot where you could watch simulations unfold, but also an interactive mode where you took control of one of the initial empires.
+            The goal of the player then was to conquer all the AIs on the map.
+            The game would actually log every decision the player made, and used them to train the next generation of AIs.
+            I wrote a Ruby script that took your play history and tried to emulate your play style with new AIs.
+        </p>
+        <p>
+            CivSim4 (aka WorldSim) is my latest and prettiest iteration.
+            I had wanted a little less chaos and more interesting histories with this iteration, so I simplified a lot from version 3.
+            The world map displayed less information but there's something so hypnotic about watching those colors move across the screen.
+            And even though it's a little buggy, I still love this version of the project.
+        </p>
+
+        <!-- SPAGE + FEST -->
+        <h1>SPAGE and FEST</h1>
+        <p>
+            I used to work at a computational biology lab as part of the University of Maryland Institute for Advanced Computer Science (UMIACS).
+            Throughout my time there I was able to have my name published in two papers - one about <a href="https://pubmed.ncbi.nlm.nih.gov/31340155/">cancer</a> and one about <a href="https://www.nature.com/articles/s41598-017-18524-2">heart disease</a>.
+            For my part in the cancer project, I developed a webapp known as <a href="https://amagen.shinyapps.io/spage/">SPAGE</a> that allows users to visualize the paper's data.
+            This data details how different genes interact in cancer patients and their effect on survival rates.
+        </p>
+        <p>
+            Later on I would head my very own project, developing a tool called FEST (Fast Enhancer Search Tool).
+            The tool would be able to identify functionally-similar genes within a target genome.
+            It would better help us understand mutations and how different species came to be.
+        </p>
+
+        <!-- Donut Hashing Algorithm -->
+        <h1>Donut Hashing Algorithm</h1>
+        <p>
+            This was always one of my sillier projects but I'm proud of it nonetheless.
+            I was hungry in computer networking class one day when I got the idea to write a hashing algorthm that converts files into tasty-looking donuts.
+            At the time I really wanted to learn Rust and WebAssembly, so I wrote the initial version as a Rust CLI tool and then ported it to browsers.
+            You can actually go to <a href="https://alugocp.github.io/donut/">this site</a> and convert any file you upload into a donut with sprinkles.
+            Don't be shy, give it a try!
+        </p>
+
+        <!-- Xochitl and Moonshot -->
+        <h1>Xochitl and Moonshot</h1>
+        <p>
+            Xochitl and Moonshot are both programming languages that I developed.
+            Xochitl was an experimental passion project from early on in college.
+            I used Node.js to create a compiler and IDE for a wholly unique language, one that almost looks like a logical language but it compiles into SVG images.
+            The goal was to be able to create mathematically precise logos without using heavy UI tools like Inkscape.
+            The syntax of Xochitl was unique in that you could write the lines in any order you'd like, without any effect on the final output.
+            Each line was processed as a node in a graph, so their precise order was unimportant.
+            I wrote the IDE in Electron using the CodeMirror library.
+        </p>
+        <p>
+            <a href="https://github.com/lugocorp/moonshot">Moonshot</a> was a much more tame idea.
+            I simply wanted a strongly-typed variation of the Lua programming language, something like what TypeScript was for JavaScript.
+            I started by implementing my own Lua parser in C, and then adding on features as I wanted them.
+            I made sure to create new keywords as I went to keep with Lua's overall feel.
+            There are other projects out there that add type checking to Lua, but they also change the syntax drastically for the new features.
+            I was looking for something a little more idiomatic.
+        </p>
+    </body>
+</html>
