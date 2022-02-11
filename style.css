@@ -10,14 +10,19 @@
 }
 
 :root {
-    --light-blue: #5EdAEA;
-    --dark-blue: #1cbfd3;
+    --light-blue: #43B3C1;
+    --dark-blue: #1785BD;
     --black: #06282C;
     --white: #FFFFFF;
 }
 
 body {
+    background: url('res/background.svg');
+    background-repeat: repeat-y;
+    background-position-y: 100%;
+    background-size: cover;
     font-family: min-sans;
+    min-height: 100vh;
     padding: 0;
     margin: 0;
 }
@@ -67,6 +72,9 @@ p {
     line-height: 28px;
     text-align: justify;
 }
+p:first-of-type {
+  margin-top: 40px;
+}
 p a {
     color: var(--dark-blue);
     text-decoration: none;
@@ -86,17 +94,19 @@ p a:hover {
     margin: 10px 0;
 }
 .contacts img {
-    width: 50px;
+    border:solid 5px var(--white);
+    border-radius: 50%;
     height: 50px;
+    width: 50px;
 }
 .contacts a {
-    color: var(--dark-blue);
+    color: var(--light-blue);
     font-weight: bold;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 22px;
     position: absolute;
     top: 0;
-    line-height: 50px;
+    line-height: 60px;
     text-decoration: none;
 }
 .contacts a:hover {
