@@ -11,8 +11,4 @@ python3 -m http.server 2017
 ```
 
 ## Pushing Changes
-Push changes to the `main` branch, then run the following command to update the live site:
-
-```bash
-git push origin main:gh-pages
-```
+Push changes to the `main` branch only, GitHub hosts the static site from that one.
