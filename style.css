@@ -75,7 +75,7 @@ body {
     width: 200px;
     float: right;
     border: solid var(--white) 10px;
-    border-radius: 15px;
+    border-radius: 50%;
     top: -100px;
     margin: 0 5vw;
 }
@@ -118,12 +118,13 @@ h2 {
 /* Contacts */
 .contacts {
     margin: 50px 5vw;
-    display: grid;
-    grid-template-columns: 33% 34% 33%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .contacts > div {
     position: relative;
     margin: 10px 0;
+    flex: 1;
 }
 .contacts img {
     border:solid 5px var(--white);
@@ -133,19 +134,14 @@ h2 {
 }
 .contacts a {
     color: var(--light-blue);
+    vertical-align: center;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 22px;
-    position: absolute;
     top: 0;
     line-height: 60px;
     text-decoration: none;
 }
 .contacts a:hover {
     text-decoration: underline;
-}
-@media screen and (max-width: 600px) {
-  .contacts {
-    grid-template-columns: 100%;
-  }
 }
